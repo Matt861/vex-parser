@@ -1,0 +1,3160 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:6edd0b90-7c1d-414a-b9ec-da542dd55c84",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-07-19T03:08:27Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.8.0"
+      }
+    ],
+    "component" : {
+      "name" : "crt-maven-classpath-dependencies 2024-07-10 19:49:58.211678",
+      "version" : "0.4.0",
+      "type" : "library",
+      "bom-ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+    }
+  },
+  "dependencies" : [
+    {
+      "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607",
+      "dependsOn" : [
+        "f26f7dda-7c1c-40a1-9589-fb6d8249f19a"
+      ]
+    },
+    {
+      "ref" : "f1f7b700-e923-4255-aa0b-ce53768cc675",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3fa2836f-f875-4370-9b1e-5480ab797c2f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d62ab498-0515-4c4b-ae15-1a448c973ed2",
+      "dependsOn" : [
+        "3fa2836f-f875-4370-9b1e-5480ab797c2f",
+        "94b2b8c2-a1d8-4771-80f3-20bfcdb24d50",
+        "e2907f76-ef14-4f74-9dad-af8ad0aa046b"
+      ]
+    },
+    {
+      "ref" : "94b2b8c2-a1d8-4771-80f3-20bfcdb24d50",
+      "dependsOn" : [
+        "3fa2836f-f875-4370-9b1e-5480ab797c2f"
+      ]
+    },
+    {
+      "ref" : "e2907f76-ef14-4f74-9dad-af8ad0aa046b",
+      "dependsOn" : [
+        "3fa2836f-f875-4370-9b1e-5480ab797c2f"
+      ]
+    },
+    {
+      "ref" : "fb562bed-f39c-45e0-9bfb-a27d7fdad3a2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "66463636-51cb-42bc-8c00-dcb70d84e6f4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ce0c722e-2c51-47d8-9e64-adcfc349e7ef",
+      "dependsOn" : [
+        "c311e28e-87b5-419b-b868-ca94d47fc40b"
+      ]
+    },
+    {
+      "ref" : "78a31bd3-136b-4a1f-bfbd-df441ff21859",
+      "dependsOn" : [
+        "31bc8deb-ddf6-4e62-8e61-020cd7c7f662",
+        "6ce395d2-b2d9-4bca-8f03-215f1177e69a"
+      ]
+    },
+    {
+      "ref" : "6c6a06cb-8feb-405e-8c3f-86dbf331fb6b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4a3fb808-d878-45dd-9de9-163e8a4f1fa5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "45fd349f-d179-443e-94e7-299dfa44f561",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "72b854c1-de4a-4b5e-ae65-d592c0fc8723",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b3a91f1c-5143-4a2d-8b27-b092e350599d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "44b45ba2-cad9-42c8-8ce2-ac3f12edc8ce",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f26f7dda-7c1c-40a1-9589-fb6d8249f19a",
+      "dependsOn" : [
+        "14be880a-3328-4b7b-b243-ae886603bcbe",
+        "a13c5054-a4cc-46bc-bb16-f22710a23fa8"
+      ]
+    },
+    {
+      "ref" : "53aeac85-a01f-4d68-b1ba-8972d65454ef",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1042d11d-8c19-4208-8cd6-dcaa0415b56a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9da5aa5c-6cd9-4391-9c45-620a4032c94f",
+      "dependsOn" : [
+        "c311e28e-87b5-419b-b868-ca94d47fc40b",
+        "1042d11d-8c19-4208-8cd6-dcaa0415b56a",
+        "b9e5ed9e-3b42-4501-ab8f-075f26174476",
+        "fb562bed-f39c-45e0-9bfb-a27d7fdad3a2"
+      ]
+    },
+    {
+      "ref" : "0e7f47db-6fa8-4201-b794-684945cc3527",
+      "dependsOn" : [
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7"
+      ]
+    },
+    {
+      "ref" : "41682e9c-9517-4847-94aa-35ab05119f9b",
+      "dependsOn" : [
+        "4d1af594-9003-4290-b44e-208557dcb4cb",
+        "44b45ba2-cad9-42c8-8ce2-ac3f12edc8ce",
+        "45fd349f-d179-443e-94e7-299dfa44f561"
+      ]
+    },
+    {
+      "ref" : "4d1af594-9003-4290-b44e-208557dcb4cb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b9e5ed9e-3b42-4501-ab8f-075f26174476",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6515b581-d5ca-492c-ba91-442bf3d9e7b4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d8b94e12-d8db-4e07-b3cc-96ffee19db29",
+      "dependsOn" : [
+        "ee81cb71-8637-48f8-a5d8-e2d245eddda1",
+        "b41f5c4a-dba4-4974-9476-b702d4271cff",
+        "9da5aa5c-6cd9-4391-9c45-620a4032c94f",
+        "c311e28e-87b5-419b-b868-ca94d47fc40b"
+      ]
+    },
+    {
+      "ref" : "b41f5c4a-dba4-4974-9476-b702d4271cff",
+      "dependsOn" : [
+        "6515b581-d5ca-492c-ba91-442bf3d9e7b4"
+      ]
+    },
+    {
+      "ref" : "5d44490e-4a29-4435-83c4-cede4bc6aa26",
+      "dependsOn" : [
+        "298f3804-e9f9-45df-bbf0-9ee526dc13ee",
+        "6515b581-d5ca-492c-ba91-442bf3d9e7b4"
+      ]
+    },
+    {
+      "ref" : "d74ae9d7-6a2d-4de5-b7ee-26d0e0caef0b",
+      "dependsOn" : [
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+        "6515b581-d5ca-492c-ba91-442bf3d9e7b4",
+        "b41f5c4a-dba4-4974-9476-b702d4271cff"
+      ]
+    },
+    {
+      "ref" : "6f880d72-d800-495d-a183-74fedd5c7313",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cdd24a41-dc21-417e-b7d2-336cf12cf139",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fb15f076-21ed-4db3-a876-9f872f997ff2",
+      "dependsOn" : [
+        "6f880d72-d800-495d-a183-74fedd5c7313"
+      ]
+    },
+    {
+      "ref" : "6ce395d2-b2d9-4bca-8f03-215f1177e69a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e6c89bb5-b4ac-4f31-8c20-736079df3e3e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8c40ad34-c32d-4fba-ab04-11014090b092",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2072c77f-f19e-4ce6-9dc3-1770aa051737",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d867877d-2254-472f-a96f-f724d783b46b",
+      "dependsOn" : [
+        "d8b94e12-d8db-4e07-b3cc-96ffee19db29",
+        "c311e28e-87b5-419b-b868-ca94d47fc40b"
+      ]
+    },
+    {
+      "ref" : "f48431db-5f18-4078-91b8-7f0415dd6618",
+      "dependsOn" : [
+        "c311e28e-87b5-419b-b868-ca94d47fc40b",
+        "34a56847-56fc-443f-9a37-59c72ae37544",
+        "d8b94e12-d8db-4e07-b3cc-96ffee19db29",
+        "73944c4c-b0c9-4136-bff4-c2ff99d71af4"
+      ]
+    },
+    {
+      "ref" : "a8f4e1ba-61e1-4255-8844-34e972b9d084",
+      "dependsOn" : [
+        "f48431db-5f18-4078-91b8-7f0415dd6618",
+        "57e022fd-7419-4f93-a59c-d9f51aa9cd96",
+        "8c40ad34-c32d-4fba-ab04-11014090b092",
+        "fcb65c25-3496-4cd9-858d-11d9a48be874",
+        "c311e28e-87b5-419b-b868-ca94d47fc40b",
+        "2072c77f-f19e-4ce6-9dc3-1770aa051737"
+      ]
+    },
+    {
+      "ref" : "31bc8deb-ddf6-4e62-8e61-020cd7c7f662",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c311e28e-87b5-419b-b868-ca94d47fc40b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fcb65c25-3496-4cd9-858d-11d9a48be874",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "eca26f89-929d-48e8-8f82-2f8b5cf77405",
+      "dependsOn" : [
+        "42ce16ea-4021-442e-81fd-ad028a8e74c4",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7"
+      ]
+    },
+    {
+      "ref" : "42ce16ea-4021-442e-81fd-ad028a8e74c4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "57e022fd-7419-4f93-a59c-d9f51aa9cd96",
+      "dependsOn" : [
+        "f1f7b700-e923-4255-aa0b-ce53768cc675"
+      ]
+    },
+    {
+      "ref" : "6d3859de-ab75-4f92-a173-a58089c0538f",
+      "dependsOn" : [
+        "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e",
+        "d30a4d2a-e810-4963-add3-cd691ef05105",
+        "0cf6a68e-5a54-495e-85fe-91e90c300376",
+        "3fa2836f-f875-4370-9b1e-5480ab797c2f",
+        "94b2b8c2-a1d8-4771-80f3-20bfcdb24d50",
+        "e2907f76-ef14-4f74-9dad-af8ad0aa046b",
+        "d62ab498-0515-4c4b-ae15-1a448c973ed2",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "7e0c8a36-2526-432b-9735-5a73e4e07128",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "d29216f0-1ec4-4ece-a78c-5f8cb6f3c2dd",
+      "dependsOn" : [
+        "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e",
+        "d30a4d2a-e810-4963-add3-cd691ef05105",
+        "e2219c5a-a6f9-45c3-ab41-3036739df9fa",
+        "7e0c8a36-2526-432b-9735-5a73e4e07128",
+        "a79f063f-fda8-4f01-9fe5-4db80cfc5963",
+        "354ea6c1-e490-4737-b208-da9851a6039f",
+        "0a29a77d-c94d-4767-9daa-541dd49485ed",
+        "e7921d11-e018-42fe-ac14-5977d9544b2d",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "4cba00d4-74c2-4703-8b4e-81adcc293a47"
+      ]
+    },
+    {
+      "ref" : "a79f063f-fda8-4f01-9fe5-4db80cfc5963",
+      "dependsOn" : [
+        "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e",
+        "e2219c5a-a6f9-45c3-ab41-3036739df9fa",
+        "1418e4e8-8c17-44e2-89f9-3d01ff4d7f64",
+        "0cf6a68e-5a54-495e-85fe-91e90c300376",
+        "7e0c8a36-2526-432b-9735-5a73e4e07128",
+        "87148cf1-6510-48ed-b4c8-4a6e58b7e66b",
+        "d30a4d2a-e810-4963-add3-cd691ef05105",
+        "6d3859de-ab75-4f92-a173-a58089c0538f",
+        "d62ab498-0515-4c4b-ae15-1a448c973ed2",
+        "3fa2836f-f875-4370-9b1e-5480ab797c2f",
+        "e2907f76-ef14-4f74-9dad-af8ad0aa046b",
+        "e7921d11-e018-42fe-ac14-5977d9544b2d",
+        "94671053-42a0-41ff-9848-c33ddaffd206",
+        "0a29a77d-c94d-4767-9daa-541dd49485ed",
+        "354ea6c1-e490-4737-b208-da9851a6039f",
+        "9790ec9f-7266-495e-a5f7-71307ab9b39e",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "ba8703f7-59af-416c-8b91-64a448552b66"
+      ]
+    },
+    {
+      "ref" : "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "d30a4d2a-e810-4963-add3-cd691ef05105",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f",
+        "0a29a77d-c94d-4767-9daa-541dd49485ed",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e"
+      ]
+    },
+    {
+      "ref" : "13106c6a-03a0-4e5c-92f0-ceea25c95f22",
+      "dependsOn" : [
+        "7e0c8a36-2526-432b-9735-5a73e4e07128"
+      ]
+    },
+    {
+      "ref" : "87148cf1-6510-48ed-b4c8-4a6e58b7e66b",
+      "dependsOn" : [
+        "ffe7dfb9-691a-43ba-8d2a-0997a38adf5e",
+        "7e0c8a36-2526-432b-9735-5a73e4e07128",
+        "e7921d11-e018-42fe-ac14-5977d9544b2d"
+      ]
+    },
+    {
+      "ref" : "0cf6a68e-5a54-495e-85fe-91e90c300376",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "e2219c5a-a6f9-45c3-ab41-3036739df9fa",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "1418e4e8-8c17-44e2-89f9-3d01ff4d7f64",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f",
+        "0a29a77d-c94d-4767-9daa-541dd49485ed",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "e2219c5a-a6f9-45c3-ab41-3036739df9fa",
+        "ba8703f7-59af-416c-8b91-64a448552b66"
+      ]
+    },
+    {
+      "ref" : "ee81cb71-8637-48f8-a5d8-e2d245eddda1",
+      "dependsOn" : [
+        "ce0c722e-2c51-47d8-9e64-adcfc349e7ef",
+        "c311e28e-87b5-419b-b868-ca94d47fc40b"
+      ]
+    },
+    {
+      "ref" : "d56cb86d-5752-4ce1-ae9c-fa132ea35b94",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e7921d11-e018-42fe-ac14-5977d9544b2d",
+      "dependsOn" : [
+        "78a31bd3-136b-4a1f-bfbd-df441ff21859",
+        "d56cb86d-5752-4ce1-ae9c-fa132ea35b94",
+        "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+        "9790ec9f-7266-495e-a5f7-71307ab9b39e",
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    },
+    {
+      "ref" : "e769b336-e167-4cb7-9bea-20de980e574c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9790ec9f-7266-495e-a5f7-71307ab9b39e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "91fb2f8c-b2c0-4d4d-a0c1-ef3252f0585a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0a29a77d-c94d-4767-9daa-541dd49485ed",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ba8703f7-59af-416c-8b91-64a448552b66",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f",
+        "e769b336-e167-4cb7-9bea-20de980e574c"
+      ]
+    },
+    {
+      "ref" : "354ea6c1-e490-4737-b208-da9851a6039f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "34a56847-56fc-443f-9a37-59c72ae37544",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "94671053-42a0-41ff-9848-c33ddaffd206",
+      "dependsOn" : [
+        "6ce395d2-b2d9-4bca-8f03-215f1177e69a",
+        "66463636-51cb-42bc-8c00-dcb70d84e6f4",
+        "9da5aa5c-6cd9-4391-9c45-620a4032c94f"
+      ]
+    },
+    {
+      "ref" : "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c24a9601-5276-465b-92a5-bb3d15c859e9",
+      "dependsOn" : [
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7"
+      ]
+    },
+    {
+      "ref" : "298f3804-e9f9-45df-bbf0-9ee526dc13ee",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "14be880a-3328-4b7b-b243-ae886603bcbe",
+      "dependsOn" : [
+        "f3c8a059-94cc-4318-bb96-64706c35c1ca",
+        "53aeac85-a01f-4d68-b1ba-8972d65454ef",
+        "72b854c1-de4a-4b5e-ae65-d592c0fc8723"
+      ]
+    },
+    {
+      "ref" : "f3c8a059-94cc-4318-bb96-64706c35c1ca",
+      "dependsOn" : [
+        "c8ff34eb-6a78-4325-9603-fe1538d69255",
+        "72b854c1-de4a-4b5e-ae65-d592c0fc8723"
+      ]
+    },
+    {
+      "ref" : "c8ff34eb-6a78-4325-9603-fe1538d69255",
+      "dependsOn" : [
+        "ef339dba-9cba-4d2c-bce0-bfd789bcc2e2"
+      ]
+    },
+    {
+      "ref" : "ef339dba-9cba-4d2c-bce0-bfd789bcc2e2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "46f327bd-d271-406f-86ae-ca2efca33014",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "859a9a77-7295-4a3c-b0b7-82918533df7f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5a3c02b7-c3b6-4d61-aa2d-feac4dd28ece",
+      "dependsOn" : [
+        "508a9cd9-04b0-4e4d-8549-e6c679d8c7a4",
+        "cde93e7f-c56a-46b1-ab1b-73880cc2d631",
+        "14d9706c-1034-4353-b166-096dce1e7e07",
+        "e6c89bb5-b4ac-4f31-8c20-736079df3e3e",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d",
+        "c24a9601-5276-465b-92a5-bb3d15c859e9",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+        "4a3fb808-d878-45dd-9de9-163e8a4f1fa5",
+        "6c6a06cb-8feb-405e-8c3f-86dbf331fb6b"
+      ]
+    },
+    {
+      "ref" : "0b9ddccd-cef7-4997-b9d4-fe6c6ba4311f",
+      "dependsOn" : [
+        "508a9cd9-04b0-4e4d-8549-e6c679d8c7a4",
+        "68eba713-fd3b-429f-8a10-27e3cccc9167",
+        "5a3c02b7-c3b6-4d61-aa2d-feac4dd28ece",
+        "e6c89bb5-b4ac-4f31-8c20-736079df3e3e",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d",
+        "c24a9601-5276-465b-92a5-bb3d15c859e9",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "eca26f89-929d-48e8-8f82-2f8b5cf77405",
+        "42ce16ea-4021-442e-81fd-ad028a8e74c4",
+        "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+        "4a3fb808-d878-45dd-9de9-163e8a4f1fa5",
+        "9da5aa5c-6cd9-4391-9c45-620a4032c94f",
+        "0e7f47db-6fa8-4201-b794-684945cc3527",
+        "6c6a06cb-8feb-405e-8c3f-86dbf331fb6b"
+      ]
+    },
+    {
+      "ref" : "63345f4d-eccd-454c-b6c5-641b2e90ca3a",
+      "dependsOn" : [
+        "0b9ddccd-cef7-4997-b9d4-fe6c6ba4311f",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d",
+        "c24a9601-5276-465b-92a5-bb3d15c859e9",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+        "4a3fb808-d878-45dd-9de9-163e8a4f1fa5",
+        "6c6a06cb-8feb-405e-8c3f-86dbf331fb6b"
+      ]
+    },
+    {
+      "ref" : "a13c5054-a4cc-46bc-bb16-f22710a23fa8",
+      "dependsOn" : [
+        "a79f063f-fda8-4f01-9fe5-4db80cfc5963",
+        "d29216f0-1ec4-4ece-a78c-5f8cb6f3c2dd",
+        "87148cf1-6510-48ed-b4c8-4a6e58b7e66b",
+        "13106c6a-03a0-4e5c-92f0-ceea25c95f22",
+        "0b9ddccd-cef7-4997-b9d4-fe6c6ba4311f",
+        "63345f4d-eccd-454c-b6c5-641b2e90ca3a"
+      ]
+    },
+    {
+      "ref" : "cde93e7f-c56a-46b1-ab1b-73880cc2d631",
+      "dependsOn" : [
+        "14d9706c-1034-4353-b166-096dce1e7e07",
+        "508a9cd9-04b0-4e4d-8549-e6c679d8c7a4",
+        "a8f4e1ba-61e1-4255-8844-34e972b9d084",
+        "d867877d-2254-472f-a96f-f724d783b46b",
+        "41682e9c-9517-4847-94aa-35ab05119f9b"
+      ]
+    },
+    {
+      "ref" : "14d9706c-1034-4353-b166-096dce1e7e07",
+      "dependsOn" : [
+        "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+        "b41f5c4a-dba4-4974-9476-b702d4271cff",
+        "5d44490e-4a29-4435-83c4-cede4bc6aa26",
+        "ae2024a5-e127-4bbf-b36f-90f702d1c66f",
+        "9da5aa5c-6cd9-4391-9c45-620a4032c94f",
+        "70b35ae7-7dbc-491e-b69a-28fc8e6fcb5f"
+      ]
+    },
+    {
+      "ref" : "2304f665-181d-48e8-9f92-77460b90759c",
+      "dependsOn" : [
+        "fb15f076-21ed-4db3-a876-9f872f997ff2",
+        "54b8bc19-82f3-4c6a-9a19-6e74da793a6c",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+        "b41f5c4a-dba4-4974-9476-b702d4271cff",
+        "5d44490e-4a29-4435-83c4-cede4bc6aa26",
+        "d74ae9d7-6a2d-4de5-b7ee-26d0e0caef0b",
+        "859a9a77-7295-4a3c-b0b7-82918533df7f",
+        "9198b04f-f7cd-48cf-9ff2-b06f80323951",
+        "cdd24a41-dc21-417e-b7d2-336cf12cf139"
+      ]
+    },
+    {
+      "ref" : "9198b04f-f7cd-48cf-9ff2-b06f80323951",
+      "dependsOn" : [
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98"
+      ]
+    },
+    {
+      "ref" : "ae2024a5-e127-4bbf-b36f-90f702d1c66f",
+      "dependsOn" : [
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "46f327bd-d271-406f-86ae-ca2efca33014"
+      ]
+    },
+    {
+      "ref" : "508a9cd9-04b0-4e4d-8549-e6c679d8c7a4",
+      "dependsOn" : [
+        "14d9706c-1034-4353-b166-096dce1e7e07",
+        "c24a9601-5276-465b-92a5-bb3d15c859e9",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d"
+      ]
+    },
+    {
+      "ref" : "68eba713-fd3b-429f-8a10-27e3cccc9167",
+      "dependsOn" : [
+        "2e8bdf14-6db2-479a-860a-47c76bb59058",
+        "fb4381c3-eb59-4174-bb9c-68f9bebf9540",
+        "c24a9601-5276-465b-92a5-bb3d15c859e9",
+        "aa2b0176-b5d0-4ade-a2d3-719bcdbbf3d7",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d"
+      ]
+    },
+    {
+      "ref" : "c111644c-0be7-4704-8078-991e3b794f7c",
+      "dependsOn" : [
+        "9198b04f-f7cd-48cf-9ff2-b06f80323951"
+      ]
+    },
+    {
+      "ref" : "2e8bdf14-6db2-479a-860a-47c76bb59058",
+      "dependsOn" : [
+        "14d9706c-1034-4353-b166-096dce1e7e07",
+        "508a9cd9-04b0-4e4d-8549-e6c679d8c7a4",
+        "cde93e7f-c56a-46b1-ab1b-73880cc2d631",
+        "9198b04f-f7cd-48cf-9ff2-b06f80323951",
+        "c111644c-0be7-4704-8078-991e3b794f7c",
+        "fb4381c3-eb59-4174-bb9c-68f9bebf9540"
+      ]
+    },
+    {
+      "ref" : "fb4381c3-eb59-4174-bb9c-68f9bebf9540",
+      "dependsOn" : [
+        "9198b04f-f7cd-48cf-9ff2-b06f80323951",
+        "2304f665-181d-48e8-9f92-77460b90759c",
+        "c111644c-0be7-4704-8078-991e3b794f7c",
+        "b3a91f1c-5143-4a2d-8b27-b092e350599d",
+        "a5e4c932-4366-4355-8dea-5db6a61b9a98",
+        "b41f5c4a-dba4-4974-9476-b702d4271cff",
+        "5d44490e-4a29-4435-83c4-cede4bc6aa26"
+      ]
+    },
+    {
+      "ref" : "73944c4c-b0c9-4136-bff4-c2ff99d71af4",
+      "dependsOn" : [
+        "ee81cb71-8637-48f8-a5d8-e2d245eddda1",
+        "9da5aa5c-6cd9-4391-9c45-620a4032c94f",
+        "c311e28e-87b5-419b-b868-ca94d47fc40b"
+      ]
+    },
+    {
+      "ref" : "70b35ae7-7dbc-491e-b69a-28fc8e6fcb5f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4cba00d4-74c2-4703-8b4e-81adcc293a47",
+      "dependsOn" : [
+        "354ea6c1-e490-4737-b208-da9851a6039f"
+      ]
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "bom-ref" : "38fc3638-1790-4fdc-b7c7-037be33e767b",
+      "id" : "CVE-2023-6378",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "A serialization vulnerability in logback receiver component part of logback version 1.4.11 allows an attacker to mount a Denial-Of-Service attack by sending poisoned data.",
+      "published" : "2023-11-29T12:15:00Z",
+      "updated" : "2023-12-05T21:00:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: ch/qos/logback/classic/spi/LoggingEventVO.readObject() Patch commit(s): https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731 https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3 Patched version(s): >= 1.2.13 >= 1.3.12 >= 1.4.12 Links: https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-6094942 Notes: Only exploitable is logback receiver component is deployed TODO: Determine is logback receiver is being deployed"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c44bfa8b-68d3-4cc4-b9f7-3afbdf5c2c63",
+      "id" : "CVE-2021-42550",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 8.5,
+          "severity" : "high",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:M/Au:S/C:C/I:C/A:C)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.6,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "In logback version 1.2.7 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.",
+      "published" : "2021-12-16T19:15:00Z",
+      "updated" : "2022-12-12T21:13:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "38fc3638-1790-4fdc-b7c7-037be33e767b",
+      "id" : "CVE-2023-6378",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "A serialization vulnerability in logback receiver component part of logback version 1.4.11 allows an attacker to mount a Denial-Of-Service attack by sending poisoned data.",
+      "published" : "2023-11-29T12:15:00Z",
+      "updated" : "2023-12-05T21:00:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: ch/qos/logback/classic/spi/LoggingEventVO.readObject() Patch commit(s): https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731 https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3 Patched version(s): >= 1.2.13 >= 1.3.12 >= 1.4.12 Links: https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-6094942 Notes: Only exploitable is logback receiver component is deployed TODO: Determine is logback receiver is being deployed"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c44bfa8b-68d3-4cc4-b9f7-3afbdf5c2c63",
+      "id" : "CVE-2021-42550",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 8.5,
+          "severity" : "high",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:M/Au:S/C:C/I:C/A:C)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.6,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "In logback version 1.2.7 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.",
+      "published" : "2021-12-16T19:15:00Z",
+      "updated" : "2022-12-12T21:13:00Z",
+      "analysis" : {
+        "detail" : "Attack vector: Advisory: Mitigation: Compromised code: Patch commit(s): Patched version(s): Links: Notes: TODO:"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "0f7a6c94-d126-44bb-9243-62fe5bb6255d",
+      "id" : "CVE-2021-35515",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/Folder.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=3fe6b42110dc56d0d6fe0aaf80cfecb8feea5321 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316639"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f4ac9dae-a06b-4786-9061-904619bdd851",
+      "id" : "CVE-2021-35516",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/SevenZFile.java Patch commit(s): https://github.com/apache/commons-compress/commit/5761493cbaf7a7d608a3b68f4d61aaa822dbeb4f https://github.com/apache/commons-compress/commit/60d551a748236d7f4651a4ae88d5a351f7c5754b https://github.com/apache/commons-compress/commit/ae2b27cc011f47f0289cb24a11f2d4f1db711f8a https://github.com/apache/commons-compress/commit/bf5a5346ae04b9d2a5b0356ca75f11dcc8d94789 https://github.com/apache/commons-compress/commit/c51de6cfaec75b21566374158f25e1734c3a94cb https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e https://github.com/apache/commons-compress/commit/0aba8b8fd8053ae323f15d736d1762b2161c76a6 https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316638"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "63f4d822-3654-4e50-9e24-d8ae4a97f18b",
+      "id" : "CVE-2021-35517",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' tar package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/tar/TarUtils.java org/apache/commons/compress/archivers/tar/TarFile.java org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=7ce1b0796d6cbe1f41b969583bd49f33ae0efef0 https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=d0af873e77d16f41edfef7b69da5c8c35c96a650 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316640"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c3bdbebf-7c27-4372-968a-ae2fa9db92d0",
+      "id" : "CVE-2021-36090",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "description" : "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' zip package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=ef5d70b625000e38404194aaab311b771c44efda Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316641"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "bf1b2652-e8c0-4194-9b53-30effad3e81c",
+      "id" : "CVE-2024-25710",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0. Users are recommended to upgrade to version 1.26.0 which fixes the issue.",
+      "published" : "2024-02-19T09:15:00Z",
+      "updated" : "2024-03-07T17:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b21554e3-d4a2-4daa-8f1b-aa61aa5ec5be",
+      "id" : "CVE-2021-26291",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.4,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.1,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        346
+      ],
+      "description" : "Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+      "published" : "2021-04-23T15:15:00Z",
+      "updated" : "2023-11-07T03:31:00Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_environment",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Our program uses an internal nexus repository manager. All software libraries used in our builds are pulled directly from this repository. This vulnerability cannot manifest because no external sources/repositories can be reached. Compromised code: org/apache/maven/internal/aether/DefaultRepositorySystemSessionFactory.newRepositorySession() org/apache/maven/repository/DefaultMirrorSelector.isExternalRepo() Patch commit(s): https://github.com/apache/maven/commit/28b4ea92d38365d0f27a5bd044ac4927580147f8 https://github.com/apache/maven/commit/3b21386c3f1ab85060f6c950fb2fb17123df8647 https://github.com/apache/maven/commit/907d53ad3264718f66ff15e1363d76b07dd0c05f Patched version(s): >= 3.8.1"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b21554e3-d4a2-4daa-8f1b-aa61aa5ec5be",
+      "id" : "CVE-2021-26291",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.4,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.1,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        346
+      ],
+      "description" : "Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+      "published" : "2021-04-23T15:15:00Z",
+      "updated" : "2023-11-07T03:31:00Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_environment",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: CRT program uses an internal nexus repository manager. All software libraries used in CRT builds are pulled directly from this repository. This vulnerability cannot manifest because no external sources/repositories can be reached. Compromised code: org/apache/maven/internal/aether/DefaultRepositorySystemSessionFactory.newRepositorySession() org/apache/maven/repository/DefaultMirrorSelector.isExternalRepo() Patch commit(s): https://github.com/apache/maven/commit/28b4ea92d38365d0f27a5bd044ac4927580147f8 https://github.com/apache/maven/commit/3b21386c3f1ab85060f6c950fb2fb17123df8647 https://github.com/apache/maven/commit/907d53ad3264718f66ff15e1363d76b07dd0c05f Patched version(s): >= 3.8.1 Notes: Duplicate of GHSA-2f88-5hg8-9x2x"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c5008c62-7f1d-4161-adfc-949627c989a9",
+      "id" : "CVE-2022-4244",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes" : [
+        22
+      ],
+      "description" : "A flaw was found in codeplex-codehaus. A directory traversal attack (also known as path traversal) aims to access files and directories stored outside the intended folder. By manipulating files with \"dot-dot-slash (../)\" sequences and their variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on the file system, including application source code, configuration, and other critical system files.",
+      "published" : "2023-09-25T20:15:00Z",
+      "updated" : "2024-05-03T16:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/codehaus/plexus/util/Expand.extractFile() Patch commit(s): https://github.com/codehaus-plexus/plexus-utils/commit/33a2853df8185b4519b1b8bfae284f03392618ef Patched version(s): >= 3.0.24 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGCODEHAUSPLEXUS-31521"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b21554e3-d4a2-4daa-8f1b-aa61aa5ec5be",
+      "id" : "CVE-2021-26291",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.4,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.1,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        346
+      ],
+      "description" : "Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+      "published" : "2021-04-23T15:15:00Z",
+      "updated" : "2023-11-07T03:31:00Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_environment",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: CRT program uses an internal nexus repository manager. All software libraries used in CRT builds are pulled directly from this repository. This vulnerability cannot manifest because no external sources/repositories can be reached. Compromised code: org/apache/maven/internal/aether/DefaultRepositorySystemSessionFactory.newRepositorySession() org/apache/maven/repository/DefaultMirrorSelector.isExternalRepo() Patch commit(s): https://github.com/apache/maven/commit/28b4ea92d38365d0f27a5bd044ac4927580147f8 https://github.com/apache/maven/commit/3b21386c3f1ab85060f6c950fb2fb17123df8647 https://github.com/apache/maven/commit/907d53ad3264718f66ff15e1363d76b07dd0c05f Patched version(s): >= 3.8.1 Notes: Duplicate of GHSA-2f88-5hg8-9x2x"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "73cc7ee0-32bd-428f-b615-796357587c6a",
+      "id" : "CVE-2020-25649",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        611
+      ],
+      "description" : "A flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity.",
+      "published" : "2020-12-03T17:15:00Z",
+      "updated" : "2023-11-07T03:20:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/ext/DOMDeserializer.java Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/612f971b78c60202e9cd75a299050c8f2d724a59 Patched version(s): >= 2.6.7.4 >= 2.9.10.7 >= 2.10.5.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-1048302 Notes: Attackers could retrieve personal / classified information by sending specially crafted XML files through the parser."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "4a01e9de-bd41-4d32-bd4e-07e933dc956e",
+      "id" : "CVE-2020-36518",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "jackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects.",
+      "published" : "2022-03-11T07:15:00Z",
+      "updated" : "2022-11-29T22:12:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.deserialize() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/8238ab41d0350fb915797c89d46777b4496b74fd https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b Patched version(s): >= 2.12.6.1 >= 2.13.2.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-2421244"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f5e868f6-9383-4eee-994c-054012653580",
+      "id" : "CVE-2022-42003",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "In FasterXML jackson-databind before versions 2.13.4.1 and 2.12.17.1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled.",
+      "published" : "2022-10-02T05:15:00Z",
+      "updated" : "2023-12-20T10:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/std/StdDeserializer._deserializeWrappedValue() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/2c4a601c626f7790cad9d3c322d244e182838288 https://github.com/FasterXML/jackson-databind/commit/cd090979b7ea78c75e4de8a4aed04f7e9fa8deea https://github.com/FasterXML/jackson-databind/commit/d78d00ee7b5245b93103fef3187f70543d67ca33 Patched version(s): >= 2.12.7.1 >= 2.13.4.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038426 Notes: This vulnerability is only exploitable when the non-default UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled. TODO: Ensure UNWRAP_SINGLE_VALUE_ARRAYS is not enabled."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c2a9e13b-a63b-451a-8d8a-af93b4eff8a7",
+      "id" : "CVE-2022-42004",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "In FasterXML jackson-databind before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization.",
+      "published" : "2022-10-02T05:15:00Z",
+      "updated" : "2022-12-02T15:10:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/BeanDeserializer._deserializeFromArray() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/063183589218fec19a9293ed2f17ec53ea80ba88 https://github.com/FasterXML/jackson-databind/commit/cd090979b7ea78c75e4de8a4aed04f7e9fa8deea Patched version(s): >= 2.12.7.1 >= 2.13.4 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038424 Notes: For this vulnerability to be exploitable the non-default DeserializationFeature must be enabled. TODO: Ensure the non-default DeserializationFeature is NOT enabled."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "26cc50fd-bf9f-4f1f-b607-3ab83365e276",
+      "id" : "CVE-2021-46877",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "jackson-databind 2.10.x through 2.12.x before 2.12.6 and 2.13.x before 2.13.1 allows attackers to cause a denial of service (2 GB transient heap usage per read) in uncommon situations involving JsonNode JDK serialization.",
+      "published" : "2023-03-18T22:15:00Z",
+      "updated" : "2023-08-08T14:21:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/node/NodeSerialization.readExternal() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/3ccde7d938fea547e598fdefe9a82cff37fed5cb Patched version(s): >= 2.13.1 >= 2.12.6 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-2326698"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "57ba3e4a-60a4-4100-a59c-07d2c27c171e",
+      "id" : "CVE-2017-18640",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        776
+      ],
+      "description" : "The Alias feature in SnakeYAML before 1.26 allows entity expansion during a load operation, a related issue to CVE-2003-1564.",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/yaml/snakeyaml/Yaml.loadFromReader() org/yaml/snakeyaml/Yaml.loadAll() org/yaml/snakeyaml/Yaml.composeAll() Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/da11ddbd91c1f8392ea932b37fa48110fa54ed8c Patched version(s): >= 1.26 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-537645"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "dd5d01ac-cd9e-4683-b974-e3715d982139",
+      "id" : "CVE-2022-1471",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.",
+      "published" : "2022-12-01T11:15:00Z",
+      "updated" : "2024-06-21T19:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Under review Compromised code: org/yaml/snakeyaml/constructor/Constructor.java Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/2b8d47c8bcfd402e7a682b7b2674e8d0cb25e522 Patched version(s): >= 2.0"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "cdbdbe72-8758-4b5a-9bc6-1cef2d110cc8",
+      "id" : "CVE-2022-25857",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        776
+      ],
+      "description" : "The package org.yaml:snakeyaml from 0 and before 1.31 are vulnerable to Denial of Service (DoS) due missing to nested depth limitation for collections.",
+      "published" : "2022-08-30T05:15:00Z",
+      "updated" : "2024-03-15T11:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/yaml/snakeyaml/composer.Composer org/yaml/snakeyaml/LoaderOptions Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/fc300780da21f4bb92c148bc90257201220cf174 Patched version(s): >= 1.31 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-2806360"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f48df6f2-b8e4-4759-aa22-4dc11eb092dd",
+      "id" : "CVE-2022-38749",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-05T10:15:00Z",
+      "updated" : "2024-03-15T11:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "3b6d988b-2525-49ee-8bfe-2c131cc40cfb",
+      "id" : "CVE-2022-38750",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-05T10:15:00Z",
+      "updated" : "2024-03-15T11:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b41e68d4-3198-4d50-9a0f-0277ea0553cf",
+      "id" : "CVE-2022-38751",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-05T10:15:00Z",
+      "updated" : "2024-03-15T11:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "fc8ff13a-4ace-4f3b-9aad-e4a5883d07b6",
+      "id" : "CVE-2022-38752",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack-overflow.",
+      "published" : "2022-09-05T10:15:00Z",
+      "updated" : "2024-03-15T11:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "55dbe384-081b-4e97-981f-416a6424d755",
+      "id" : "CVE-2022-41854",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 6.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "Those using Snakeyaml to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack.",
+      "published" : "2022-11-11T13:15:00Z",
+      "updated" : "2024-06-21T19:15:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "2f344675-b9ff-43f9-bd02-bc32792dbed7",
+      "id" : "CVE-2021-21364",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 2.1,
+          "severity" : "low",
+          "method" : "CVSSv2",
+          "vector" : "(AV:L/AC:L/Au:N/C:P/I:N/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes" : [
+        732
+      ],
+      "description" : "swagger-codegen is an open-source project which contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition. In swagger-codegen before version 2.4.19, on Unix-Like systems, the system temporary directory is shared between all local users. When files/directories are created, the default `umask` settings for the process are respected. As a result, by default, most processes/apis will create files/directories with the permissions `-rw-r--r--` and `drwxr-xr-x` respectively, unless an API that explicitly sets safe file permissions is used. Because this vulnerability impacts generated code, the generated code will remain vulnerable until fixed manually! This vulnerability is fixed in version 2.4.19. Note this is a distinct vulnerability from CVE-2021-21363.",
+      "published" : "2021-03-11T03:15:00Z",
+      "updated" : "2022-10-21T22:41:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "13a0efcd-ad72-4221-8388-b64f5add90e4",
+      "id" : "CVE-2020-13956",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.3,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        }
+      ],
+      "description" : "Apache HttpClient versions prior to version 4.5.13 and 5.0.3 can misinterpret malformed authority component in request URIs passed to the library as java.net.URI object and pick the wrong target host for request execution.",
+      "published" : "2020-12-02T17:15:00Z",
+      "updated" : "2023-11-07T03:17:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "43340f7b-d3a4-44d9-97b8-e6e3439305fa",
+      "id" : "CVE-2021-29425",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.8,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:M/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 4.8,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes" : [
+        22
+      ],
+      "description" : "In Apache Commons IO before 2.7, When invoking the method FileNameUtils.normalize with an improper input string, like \"//../foo\", or \"\\\\..\\foo\", the result would be the same value, thus possibly providing access to files in the parent directory, but not further above (thus \"limited\" path traversal), if the calling code would use the result to construct a path value.",
+      "published" : "2021-04-13T07:15:00Z",
+      "updated" : "2023-11-07T03:32:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "37309897-6f6b-49d6-975a-fc957d3827f9",
+      "id" : "CVE-2018-8088",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "description" : "org.slf4j.ext.EventData in the slf4j-ext module in QOS.CH SLF4J before 1.8.0-beta2 allows remote attackers to bypass intended access restrictions via crafted data. EventData in the slf4j-ext module in QOS.CH SLF4J, has been fixed in SLF4J versions 1.7.26 later and in the 2.0.x series. Sonatype's research suggests that this CVE's details differ from those defined at NVD. See https://ossindex.sonatype.org/vulnerability/CVE-2018-8088 for details",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/slf4j/ext/EventData.java Patch commit(s): https://jira.qos.ch/browse/SLF4J-430 Patched version(s): >= 1.7.26 >= 1.8.0-beta2 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGSLF4J-32138"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "cc614745-99b4-431f-881a-65324e1b97b4",
+      "id" : "CVE-2018-10237",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 4.3,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:M/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.9,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "Unbounded memory allocation in Google Guava 11.0 through 24.x before 24.1.1 allows remote attackers to conduct denial of service attacks against servers that depend on this library and deserialize attacker-provided data, because the AtomicDoubleArray class (when serialized with Java serialization) and the CompoundOrdering class (when serialized with GWT serialization) perform eager allocation without appropriate checks on what a client has sent and whether the data size is reasonable.",
+      "published" : "2018-04-26T21:29:00Z",
+      "updated" : "2023-11-07T02:51:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "3dd0419b-3582-495a-ade7-3b2f8b9fcff3",
+      "id" : "CVE-2023-2976",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.1,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        552
+      ],
+      "description" : "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class. Even though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+      "published" : "2023-06-14T18:15:00Z",
+      "updated" : "2024-02-13T19:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: com/google/common/io/FileBackedOutputStream.java Patch commit(s): https://github.com/google/guava/commit/feb83a1c8fd2e7670b244d5afd23cba5aca43284 Patched version(s): >= 32.0.0-android (maintainers recommend using version 32.0.1) >= 32.0.0-jre (maintainers recommend using version 32.0.1) Links: https://security.snyk.io/vuln/SNYK-JAVA-COMGOOGLEGUAVA-5710356"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "480e4291-3b8a-4c04-9fd2-fdb3d31ec140",
+      "id" : "CVE-2020-8908",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 2.1,
+          "severity" : "low",
+          "method" : "CVSSv2",
+          "vector" : "(AV:L/AC:L/Au:N/C:P/I:N/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 3.3,
+          "severity" : "low",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes" : [
+        732
+      ],
+      "description" : "A temp directory creation vulnerability exists in all versions of Guava, allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava API com.google.common.io.Files.createTempDir(). By default, on unix-like systems, the created directory is world-readable (readable by an attacker with access to the system). The method in question has been marked @Deprecated in versions 30.0 and later and should not be used. For Android developers, we recommend choosing a temporary directory API provided by Android, such as context.getCacheDir(). For other Java developers, we recommend migrating to the Java 7 API java.nio.file.Files.createTempDirectory() which explicitly configures permissions of 700, or configuring the Java runtime's java.io.tmpdir system property to point to a location whose permissions are appropriately configured.",
+      "published" : "2020-12-10T23:15:00Z",
+      "updated" : "2023-08-02T17:30:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "6d6aa5da-670d-402c-9169-2e78b3e5cbcc",
+      "id" : "CVE-2019-19919",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        1321
+      ],
+      "description" : "Versions of handlebars prior to 4.3.0 are vulnerable to Prototype Pollution leading to Remote Code Execution. Templates may alter an Object's __proto__ and __defineGetter__ properties, which may allow an attacker to execute arbitrary code through crafted payloads.",
+      "published" : "2019-12-20T23:15:00Z",
+      "updated" : "2022-06-03T18:48:00Z",
+      "analysis" : { },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "1ec653cd-8eba-4a98-b66c-007c3ad4f3c3",
+      "id" : "GHSA-xqfj-vm6h-2x34",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130,
+        770
+      ],
+      "description" : "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' tar package.",
+      "published" : "2021-08-02T16:55:39Z",
+      "updated" : "2023-01-27T05:02:19Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/tar/TarUtils.java org/apache/commons/compress/archivers/tar/TarFile.java org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=7ce1b0796d6cbe1f41b969583bd49f33ae0efef0 https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=d0af873e77d16f41edfef7b69da5c8c35c96a650 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316640"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c7933641-a941-46a4-9450-6237f88bde2d",
+      "id" : "GHSA-7hfm-57qf-j43q",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        834,
+        835
+      ],
+      "description" : "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-08-02T16:55:07Z",
+      "updated" : "2023-01-27T05:02:27Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/Folder.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=3fe6b42110dc56d0d6fe0aaf80cfecb8feea5321 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316639"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "37108b97-f739-4c3b-8a74-dda6ac56b8d5",
+      "id" : "GHSA-mc84-pj99-q6hh",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130
+      ],
+      "description" : "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' zip package.",
+      "published" : "2021-08-02T16:55:53Z",
+      "updated" : "2023-01-27T05:02:28Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=ef5d70b625000e38404194aaab311b771c44efda Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316641"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f4bf298b-b2b7-444c-a43d-62c0c9f255cd",
+      "id" : "GHSA-crv7-7245-f45f",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130,
+        770
+      ],
+      "description" : "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-08-02T16:55:15Z",
+      "updated" : "2023-01-27T05:02:44Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/SevenZFile.java Patch commit(s): https://github.com/apache/commons-compress/commit/5761493cbaf7a7d608a3b68f4d61aaa822dbeb4f https://github.com/apache/commons-compress/commit/60d551a748236d7f4651a4ae88d5a351f7c5754b https://github.com/apache/commons-compress/commit/ae2b27cc011f47f0289cb24a11f2d4f1db711f8a https://github.com/apache/commons-compress/commit/bf5a5346ae04b9d2a5b0356ca75f11dcc8d94789 https://github.com/apache/commons-compress/commit/c51de6cfaec75b21566374158f25e1734c3a94cb https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e https://github.com/apache/commons-compress/commit/0aba8b8fd8053ae323f15d736d1762b2161c76a6 https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316638"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "077cb2bb-3b39-4878-bf31-410f3cd3cd11",
+      "id" : "GHSA-4g9r-vxhx-9pgx",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress. This issue affects Apache Commons Compress: from 1.3 through 1.25.0. Users are recommended to upgrade to version 1.26.0 which fixes the issue.",
+      "published" : "2024-02-19T09:30:50Z",
+      "updated" : "2024-03-07T18:30:28Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/dump/DumpArchiveUtil.java org/apache/commons/compress/archivers/dump/TapeInputStream.java Patch commit(s): https://github.com/apache/commons-compress/commit/8a9a5847c04ae39a1d45b365f8bb82022466067d Patched version(s): >= 1.26.0 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-6254296"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "624ef6d8-1b62-4955-a2df-c0c0638f5d6e",
+      "id" : "GHSA-gwrp-pvrq-jmwv",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        20,
+        22
+      ],
+      "description" : "In Apache Commons IO before 2.7, When invoking the method FileNameUtils.normalize with an improper input string, like \"//../foo\", or \"\\\\..\\foo\", the result would be the same value, thus possibly providing access to files in the parent directory, but not further above (thus \"limited\" path traversal), if the calling code would use the result to construct a path value.",
+      "published" : "2021-04-26T16:04:00Z",
+      "updated" : "2024-02-14T20:26:00Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "5d1e02a3-6b1c-404c-b3bb-45ff9e434479",
+      "id" : "GHSA-5mg8-w23w-74h3",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "low",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        173,
+        200,
+        378,
+        732
+      ],
+      "description" : "A temp directory creation vulnerability exists in Guava prior to version 32.0.0 allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava `com.google.common.io.Files.createTempDir()`. The permissions granted to the directory created default to the standard unix-like /tmp ones, leaving the files open. Maintainers recommend explicitly changing the permissions after the creation of the directory, or removing uses of the vulnerable method.",
+      "published" : "2021-03-25T17:04:19Z",
+      "updated" : "2023-11-09T18:44:38Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "64149388-565d-4107-8671-68bc869d595e",
+      "id" : "GHSA-mvr2-9pj6-7w5j",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        502,
+        770
+      ],
+      "description" : "Unbounded memory allocation in Google Guava 11.0 through 24.x before 24.1.1 allows remote attackers to conduct denial of service attacks against servers that depend on this library and deserialize attacker-provided data, because the AtomicDoubleArray class (when serialized with Java serialization) and the CompoundOrdering class (when serialized with GWT serialization) perform eager allocation without appropriate checks on what a client has sent and whether the data size is reasonable.",
+      "published" : "2020-06-15T20:35:11Z",
+      "updated" : "2023-11-09T18:46:33Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "04549cf4-a230-431a-a629-75e07032bb63",
+      "id" : "GHSA-7g45-4rm6-3mm3",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        379,
+        552
+      ],
+      "description" : "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class. Even though the security vulnerability is fixed in version 32.0.0, maintainers recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+      "published" : "2023-06-14T18:30:38Z",
+      "updated" : "2024-02-13T21:49:15Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "687064eb-876d-4e3b-9097-07ee58e21673",
+      "id" : "GHSA-7r82-7xv7-xcpj",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        79
+      ],
+      "description" : "Apache HttpClient versions prior to version 4.5.13 and 5.0.3 can misinterpret malformed authority component in request URIs passed to the library as java.net.URI object and pick the wrong target host for request execution.",
+      "published" : "2021-06-03T23:40:23Z",
+      "updated" : "2023-02-01T05:05:30Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "8c7481b4-b6bd-45bb-ad05-babeff0b3344",
+      "id" : "GHSA-3x8x-79m2-3w2w",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "description" : "jackson-databind 2.10.x through 2.12.x before 2.12.6 and 2.13.x before 2.13.1 allows attackers to cause a denial of service (2 GB transient heap usage per read) in uncommon situations involving JsonNode JDK serialization.",
+      "published" : "2023-03-19T00:30:25Z",
+      "updated" : "2023-03-23T18:23:19Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/node/NodeSerialization.readExternal() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/3ccde7d938fea547e598fdefe9a82cff37fed5cb Patched version(s): >= 2.13.1 >= 2.12.6 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-2326698"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "6a16f4b9-9e8c-4084-b990-758bd5c24871",
+      "id" : "GHSA-jjjh-jjxp-wpff",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        400,
+        502
+      ],
+      "description" : "In FasterXML jackson-databind 2.4.0-rc1 until 2.12.7.1 and in 2.13.x before 2.13.4.2 resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled. This was patched in 2.12.7.1, 2.13.4.2, and 2.14.0. Commits that introduced vulnerable code are https://github.com/FasterXML/jackson-databind/commit/d499f2e7bbc5ebd63af11e1f5cf1989fa323aa45, https://github.com/FasterXML/jackson-databind/commit/0e37a39502439ecbaa1a5b5188387c01bf7f7fa1, and https://github.com/FasterXML/jackson-databind/commit/7ba9ac5b87a9d6ac0d2815158ecbeb315ad4dcdc. Fix commits are https://github.com/FasterXML/jackson-databind/commit/cd090979b7ea78c75e4de8a4aed04f7e9fa8deea and https://github.com/FasterXML/jackson-databind/commit/d78d00ee7b5245b93103fef3187f70543d67ca33.",
+      "published" : "2022-10-03T00:00:31Z",
+      "updated" : "2024-03-15T00:14:44Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/std/StdDeserializer._deserializeWrappedValue() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/2c4a601c626f7790cad9d3c322d244e182838288 https://github.com/FasterXML/jackson-databind/commit/cd090979b7ea78c75e4de8a4aed04f7e9fa8deea https://github.com/FasterXML/jackson-databind/commit/d78d00ee7b5245b93103fef3187f70543d67ca33 Patched version(s): >= 2.12.7.1 >= 2.13.4.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038426 Notes: This vulnerability is only exploitable when the non-default UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled. TODO: Ensure UNWRAP_SINGLE_VALUE_ARRAYS is not enabled."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "656461a6-6bb8-4a67-9a27-e97e6abb257d",
+      "id" : "GHSA-57j2-w4cx-62h2",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "jackson-databind is a data-binding package for the Jackson Data Processor. jackson-databind allows a Java stack overflow exception and denial of service via a large depth of nested objects.",
+      "published" : "2022-03-12T00:00:36Z",
+      "updated" : "2024-03-15T00:24:56Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.deserialize() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/8238ab41d0350fb915797c89d46777b4496b74fd https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b Patched version(s): >= 2.12.6.1 >= 2.13.2.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-2421244"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "fbbe3f26-7725-491b-b0c6-5263e21691b9",
+      "id" : "GHSA-288c-cq4h-88gq",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        611
+      ],
+      "description" : "A flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity.",
+      "published" : "2021-02-18T20:51:54Z",
+      "updated" : "2024-03-15T00:31:24Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/ext/DOMDeserializer.java Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/612f971b78c60202e9cd75a299050c8f2d724a59 Patched version(s): >= 2.6.7.4 >= 2.9.10.7 >= 2.10.5.1 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-1048302 Notes: Attackers could retrieve personal / classified information by sending specially crafted XML files through the parser."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "497f15be-d057-459f-8030-59cd7eea0d99",
+      "id" : "GHSA-rgv9-q543-rqg4",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        400,
+        502
+      ],
+      "description" : "In FasterXML jackson-databind before 2.12.7.1 and in 2.13.x before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization.",
+      "published" : "2022-10-03T00:00:31Z",
+      "updated" : "2024-03-24T05:01:05Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: com/fasterxml/jackson/databind/deser/BeanDeserializer._deserializeFromArray() Patch commit(s): https://github.com/FasterXML/jackson-databind/commit/063183589218fec19a9293ed2f17ec53ea80ba88 https://github.com/FasterXML/jackson-databind/commit/cd090979b7ea78c75e4de8a4aed04f7e9fa8deea Patched version(s): >= 2.12.7.1 >= 2.13.4 Links: https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038424 Notes: For this vulnerability to be exploitable the non-default DeserializationFeature must be enabled. TODO: Ensure the non-default DeserializationFeature is NOT enabled."
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c3be423b-f67b-4804-9350-3e7e96741b1d",
+      "id" : "GHSA-vmq6-5m68-f53m",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "A serialization vulnerability in logback receiver component part of logback allows an attacker to mount a Denial-Of-Service attack by sending poisoned data. This is only exploitable if logback receiver component is deployed. See https://logback.qos.ch/manual/receivers.html",
+      "published" : "2023-11-29T12:30:16Z",
+      "updated" : "2023-12-05T21:31:13Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: ch/qos/logback/classic/spi/LoggingEventVO.readObject() Patch commit(s): https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731 https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3 Patched version(s): >= 1.2.13 >= 1.3.12 >= 1.4.12 Links: https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-6094942 Notes: Only exploitable is logback receiver component is deployed TODO: Determine is logback receiver is being deployed"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "875dc042-9b3e-4d34-9878-21732ee851b9",
+      "id" : "GHSA-668q-qrv7-99fm",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "In logback version 1.2.7 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.",
+      "published" : "2021-12-17T20:00:50Z",
+      "updated" : "2023-01-30T05:04:55Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c3be423b-f67b-4804-9350-3e7e96741b1d",
+      "id" : "GHSA-vmq6-5m68-f53m",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "description" : "A serialization vulnerability in logback receiver component part of logback allows an attacker to mount a Denial-Of-Service attack by sending poisoned data. This is only exploitable if logback receiver component is deployed. See https://logback.qos.ch/manual/receivers.html",
+      "published" : "2023-11-29T12:30:16Z",
+      "updated" : "2023-12-05T21:31:13Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: ch/qos/logback/classic/spi/LoggingEventVO.readObject() Patch commit(s): https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731 https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3 Patched version(s): >= 1.2.13 >= 1.3.12 >= 1.4.12 Links: https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-6094942 Notes: Only exploitable is logback receiver component is deployed TODO: Determine is logback receiver is being deployed"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "7ca3a737-b86f-4125-9de0-4d0dbda35317",
+      "id" : "GHSA-2f88-5hg8-9x2x",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "critical",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        346
+      ],
+      "description" : "Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+      "published" : "2021-06-16T17:32:49Z",
+      "updated" : "2023-08-15T17:39:31Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_environment",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: CRT program uses an internal nexus repository manager. All software libraries used in CRT builds are pulled directly from this repository. This vulnerability cannot manifest because no external sources/repositories can be reached. Compromised code: org/apache/maven/internal/aether/DefaultRepositorySystemSessionFactory.newRepositorySession() org/apache/maven/repository/DefaultMirrorSelector.isExternalRepo() Patch commit(s): https://github.com/apache/maven/commit/28b4ea92d38365d0f27a5bd044ac4927580147f8 https://github.com/apache/maven/commit/3b21386c3f1ab85060f6c950fb2fb17123df8647 https://github.com/apache/maven/commit/907d53ad3264718f66ff15e1363d76b07dd0c05f Patched version(s): >= 3.8.1"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "7ca3a737-b86f-4125-9de0-4d0dbda35317",
+      "id" : "GHSA-2f88-5hg8-9x2x",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "critical",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        346
+      ],
+      "description" : "Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+      "published" : "2021-06-16T17:32:49Z",
+      "updated" : "2023-08-15T17:39:31Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_environment",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: CRT program uses an internal nexus repository manager. All software libraries used in CRT builds are pulled directly from this repository. This vulnerability cannot manifest because no external sources/repositories can be reached. Compromised code: org/apache/maven/internal/aether/DefaultRepositorySystemSessionFactory.newRepositorySession() org/apache/maven/repository/DefaultMirrorSelector.isExternalRepo() Patch commit(s): https://github.com/apache/maven/commit/28b4ea92d38365d0f27a5bd044ac4927580147f8 https://github.com/apache/maven/commit/3b21386c3f1ab85060f6c950fb2fb17123df8647 https://github.com/apache/maven/commit/907d53ad3264718f66ff15e1363d76b07dd0c05f Patched version(s): >= 3.8.1"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "5259b581-6a8d-4a2b-b03d-f64e3de1baf5",
+      "id" : "GHSA-jcwr-x25h-x5fh",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        91,
+        611
+      ],
+      "description" : "A flaw was found in codehaus-plexus. The `org.codehaus.plexus.util.xml.XmlWriterUtil#writeComment` fails to sanitize comments for a `-->` sequence. This issue means that text contained in the command string could be interpreted as XML and allow for XML injection.",
+      "published" : "2023-09-25T21:30:26Z",
+      "updated" : "2024-05-03T20:26:14Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "e295977f-5fa3-4741-99a5-2a44c40f76d3",
+      "id" : "GHSA-g6ph-x5wf-g337",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        22
+      ],
+      "description" : "A flaw was found in plexus-codehaus. A directory traversal attack (also known as path traversal) aims to access files and directories stored outside the intended folder. By manipulating files with dot-dot-slash (`../`) sequences and their variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on the file system, including application source code, configuration, and other critical system files.",
+      "published" : "2023-09-25T21:30:26Z",
+      "updated" : "2024-05-03T20:27:07Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/codehaus/plexus/util/Expand.extractFile() Patch commit(s): https://github.com/codehaus-plexus/plexus-utils/commit/33a2853df8185b4519b1b8bfae284f03392618ef Patched version(s): >= 3.0.24 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGCODEHAUSPLEXUS-31521"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "cf59e891-d6a1-480d-bfc0-1ccb72051b39",
+      "id" : "GHSA-w77p-8cfg-2x43",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "critical",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        284
+      ],
+      "description" : "org.slf4j.ext.EventData in the slf4j-ext module in QOS.CH SLF4J before `1.8.0-beta4` allows remote attackers to bypass intended access restrictions via crafted data. EventData in the slf4j-ext module in QOS.CH SLF4J, has been fixed in SLF4J version `1.7.26` and later and in the `2.0.x` series. Note that while the [fix commit](https://github.com/qos-ch/slf4j/commit/d2b27fba88e983f921558da27fc29b5f5d269405) is associated with the tag `1.8.0-beta3`, the versions in [Maven](https://mvnrepository.com/artifact/org.slf4j/slf4j-ext) go directly from `1.8.0-beta2` to `1.8.0-beta4`.",
+      "published" : "2022-05-13T01:04:09Z",
+      "updated" : "2023-12-29T00:13:58Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/slf4j/ext/EventData.java Patch commit(s): https://jira.qos.ch/browse/SLF4J-430 Patched version(s): >= 1.7.26 >= 1.8.0-beta2 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGSLF4J-32138"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "d1a4d0fc-4eb6-45cc-8b85-006c41dbbe65",
+      "id" : "GHSA-rvwf-54qp-4r6v",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        776
+      ],
+      "description" : "The Alias feature in SnakeYAML 1.18 allows entity expansion during a load operation, a related issue to CVE-2003-1564.",
+      "published" : "2021-06-04T21:37:45Z",
+      "updated" : "2023-05-22T20:17:58Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/yaml/snakeyaml/Yaml.loadFromReader() org/yaml/snakeyaml/Yaml.loadAll() org/yaml/snakeyaml/Yaml.composeAll() Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/da11ddbd91c1f8392ea932b37fa48110fa54ed8c Patched version(s): >= 1.26 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-537645"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "9c1e99a0-4c76-4c81-9209-a93644e5dcd0",
+      "id" : "GHSA-9w3m-gqgf-c4p9",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        121,
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DoS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack-overflow.",
+      "published" : "2022-09-06T00:00:27Z",
+      "updated" : "2024-03-15T12:30:36Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b53b7513-569c-4b84-820d-d40b8b5e54e8",
+      "id" : "GHSA-w37g-rhq8-7m4j",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        121,
+        787
+      ],
+      "description" : "Those using Snakeyaml to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack.",
+      "published" : "2022-11-11T19:00:31Z",
+      "updated" : "2024-06-21T21:33:52Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "87b07ac2-151a-4457-9e89-a13c70263cab",
+      "id" : "GHSA-c4r9-r8fh-9vj2",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        121,
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-06T00:00:27Z",
+      "updated" : "2024-03-15T12:30:36Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "e0bc0007-c9d7-43da-a184-2dd9c32e2d45",
+      "id" : "GHSA-hhhw-99gj-p3c3",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        121,
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-06T00:00:27Z",
+      "updated" : "2024-03-15T12:30:36Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "a0365911-cb62-43d9-8fc6-ed58ab57183f",
+      "id" : "GHSA-98wm-3w3q-mw94",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        121,
+        787
+      ],
+      "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+      "published" : "2022-09-06T00:00:27Z",
+      "updated" : "2024-03-15T12:30:36Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "5b404ad4-ea1b-495c-a859-890c05185fc4",
+      "id" : "GHSA-3mc7-4q67-w48m",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        400,
+        776
+      ],
+      "description" : "The package org.yaml:snakeyaml from 0 and before 1.31 are vulnerable to Denial of Service (DoS) due missing to nested depth limitation for collections.",
+      "published" : "2022-08-31T00:00:24Z",
+      "updated" : "2024-03-15T19:06:46Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/yaml/snakeyaml/composer.Composer org/yaml/snakeyaml/LoaderOptions Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/fc300780da21f4bb92c148bc90257201220cf174 Patched version(s): >= 1.31 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-2806360"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "4d9b4b32-35f7-462c-9836-e026093be916",
+      "id" : "GHSA-mjmj-j48q-9wg2",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        20,
+        502
+      ],
+      "description" : "### Summary SnakeYaml's `Constructor` class, which inherits from `SafeConstructor`, allows any type be deserialized given the following line: new Yaml(new Constructor(TestDataClass.class)).load(yamlContent); Types do not have to match the types of properties in the target class. A `ConstructorException` is thrown, but only after a malicious payload is deserialized. ### Severity High, lack of type checks during deserialization allows remote code execution. ### Proof of Concept Execute `bash run.sh`. The PoC uses Constructor to deserialize a payload for RCE. RCE is demonstrated by using a payload which performs a http request to http://127.0.0.1:8000. Example output of successful run of proof of concept: ``` $ bash run.sh [+] Downloading snakeyaml if needed [+] Starting mock HTTP server on 127.0.0.1:8000 to demonstrate RCE nc: no process found [+] Compiling and running Proof of Concept, which a payload that sends a HTTP request to mock web server. [+] An exception is expected. Exception: Cannot create property=payload for JavaBean=Main$TestDataClass@3cbbc1e0 in 'string', line 1, column 1: payload: !!javax.script.ScriptEn ... ^ Can not set java.lang.String field Main$TestDataClass.payload to javax.script.ScriptEngineManager in 'string', line 1, column 10: payload: !!javax.script.ScriptEngineManag ... ^ at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:291) at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:172) at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:332) at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:230) at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:220) at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:174) at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:158) at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:491) at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) at Main.main(Main.java:37) Caused by: java.lang.IllegalArgumentException: Can not set java.lang.String field Main$TestDataClass.payload to javax.script.ScriptEngineManager at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81) at java.base/java.lang.reflect.Field.set(Field.java:780) at org.yaml.snakeyaml.introspector.FieldProperty.set(FieldProperty.java:44) at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:286) ... 9 more [+] Dumping Received HTTP Request. Will not be empty if PoC worked GET /proof-of-concept HTTP/1.1 User-Agent: Java/11.0.14 Host: localhost:8000 Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2 Connection: keep-alive ``` ### Further Analysis Potential mitigations include, leveraging SnakeYaml's SafeConstructor while parsing untrusted content. See https://bitbucket.org/snakeyaml/snakeyaml/issues/561/cve-2022-1471-vulnerability-in#comment-64581479 for discussion on the subject. A fix was released in version 2.0. See https://bitbucket.org/snakeyaml/snakeyaml/issues/561/cve-2022-1471-vulnerability-in#comment-64876314 for more information. ### Timeline **Date reported**: 4/11/2022 **Date fixed**: **Date disclosed**: 10/13/2022",
+      "published" : "2022-12-12T21:19:47Z",
+      "updated" : "2024-06-24T21:22:59Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Under review Compromised code: org/yaml/snakeyaml/constructor/Constructor.java Patch commit(s): https://bitbucket.org/snakeyaml/snakeyaml/commits/2b8d47c8bcfd402e7a682b7b2674e8d0cb25e522 Patched version(s): >= 2.0"
+      },
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "d6a794de-b66c-4dac-b105-d9f1886f768b",
+      "id" : "GHSA-rfmp-97jj-h8m6",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        117
+      ],
+      "description" : "In Spring Framework versions 5.3.0 - 5.3.10, 5.2.0 - 5.2.17, and older unsupported versions, it is possible for a user to provide malicious input to cause the insertion of additional log entries.",
+      "published" : "2022-05-24T19:19:04Z",
+      "updated" : "2023-01-27T05:03:22Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "6ab472cc-7fa2-4df6-b83e-36624a9ced5a",
+      "id" : "GHSA-6gf2-pvqw-37ph",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "description" : "In Spring Framework versions 5.3.0 - 5.3.13, 5.2.0 - 5.2.18, and older unsupported versions, it is possible for a user to provide malicious input to cause the insertion of additional log entries. This is a follow-up to CVE-2021-22096 that protects against additional types of input and in more places of the Spring Framework codebase.",
+      "published" : "2022-01-12T23:04:06Z",
+      "updated" : "2023-02-03T05:04:29Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "09e4554c-9e07-42c9-9386-d6c65aaef873",
+      "id" : "GHSA-hpv8-9rq5-hq7w",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        200,
+        378,
+        732
+      ],
+      "description" : "### Impact **This vulnerability impacts generated code.** If this code was generated as a one-off occasion, not as a part of an automated CI/CD process, this code will remain vulnerable until fixed manually! On Unix-Like systems, the system temporary directory is shared between all local users. When files/directories are created, the default `umask` settings for the process are respected. As a result, by default, most processes/apis will create files/directories with the permissions `-rw-r--r--` and `drwxr-xr-x` respectively, unless an API that explicitly sets safe file permissions is used. #### Java Code The method `File.createTempFile` from the JDK is vulnerable to this local information disclosure vulnerability. - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/kotlin-client/infrastructure/ApiClient.kt.mustache#L209 - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/finch/api.mustache#L84 - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/Java/libraries/okhttp-gson/ApiClient.mustache#L831-L834 - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/Java/libraries/jersey2/ApiClient.mustache#L630-L633 ### Patches Fix has been applied to the master branch with: * https://github.com/swagger-api/swagger-codegen/commit/35adbd552d5f99b3ff1e0e59da228becc85190f2 included in release: 2.4.19 ### Workarounds Users can remediate the vulnerability in non patched version by manually (or programmatically e.g. in CI) updating the generated source code to use `java.nio.files.Files` temporary file creation instead of `java.io.File`, e.g. by changing ```java if (tempFolderPath == null) return File.createTempFile(prefix, suffix); else return File.createTempFile(prefix, suffix, new File(tempFolderPath)); ``` to ```java if (tempFolderPath == null) return Files.createTempFile(prefix, suffix).toFile(); else return Files.createTempFile(Paths.get(tempFolderPath), prefix, suffix).toFile(); ``` or generally changing: ```java File.createTempFile(prefix, suffix); ``` to ```java Files.createTempFile(prefix, suffix).toFile(); ``` ### References * [CWE-378: Creation of Temporary File With Insecure Permissions](https://cwe.mitre.org/data/definitions/378.html) * [CWE-200: Exposure of Sensitive Information to an Unauthorized Actor](https://cwe.mitre.org/data/definitions/200.html) * [CWE-732: Incorrect Permission Assignment for Critical Resource](https://cwe.mitre.org/data/definitions/732.html) ### For more information If you have any questions or comments about this advisory: * Email us at [security@swagger.io](mailto:security@swagger.io) #### Original vulnerability report > I'm performing OSS security research under the GitHub Security Lab Bug Bounty program. > I've been using a custom CodeQL query to find local temporary directory vulnerabilities in OSS with three custom CodeQL queries. > > - https://github.com/github/codeql/pull/4388/files#diff-71d36c0f2bd0b08e32866f873f1c906cdc17277e0ad327c0c6cd2c882f30de4f > - https://github.com/github/codeql/pull/4388/files#diff-1893a18a8bf43c011d61a7889d0139b998a5a78701a30fe7722eddd4c506aaac > - https://github.com/github/codeql/pull/4473 > > The code generated by the Swagger Generator contains a local information disclosure vulnerability. The system temporary directory, on unix-like systems is shared between multiple users. Information written to this directory, or directories created under this directory that do not correctly set the posix standard permissions can have these directories read/modified by other users. > > --- > > This code exists in the code generator, in the generated code. > > In this case, I believe this is only a local information disclosure. IE. another user can read the information, not replace it. > > In particular, the method `File.createTempFile` from the JDK is vulnerable to this local information disclosure vulnerability. > > This is because `File.createTempFile` creates a file inside of the system temporary directory with the permissions: `-rw-r--r--`. Thus the contents of this file are viewable by all other users locally on the system. > > - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/kotlin-client/infrastructure/ApiClient.kt.mustache#L209 > - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/finch/api.mustache#L84 > - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/Java/libraries/okhttp-gson/ApiClient.mustache#L831-L834 > - https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-codegen/src/main/resources/Java/libraries/jersey2/ApiClient.mustache#L630-L633 > > The fix here is to switch to the `Files` API, instead of `File` as that appropriately sets the file permissions. >",
+      "published" : "2021-03-11T03:09:18Z",
+      "updated" : "2023-01-29T05:06:34Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "4a2c4ea3-b786-4239-971f-28b1111b19dd",
+      "id" : "GHSA-pc22-3g76-gm6j",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "low",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        378,
+        379
+      ],
+      "description" : "### Impact On Unix like systems, the system's temporary directory is shared between all users on that system. A collocated user can observe the process of creating a temporary sub directory in the shared temporary directory and race to complete the creation of the temporary subdirectory. This vulnerability is local privilege escalation because the contents of the `outputFolder` can be appended to by an attacker. As such, code written to this directory, when executed can be attacker controlled. #### Java Code The method `File.createTempFile` from the JDK is vulnerable to this local information disclosure vulnerability. https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-generator/src/main/java/io/swagger/generator/online/Generator.java#L174-L185 ### Patches Fix has been applied to the master branch with: * https://github.com/swagger-api/swagger-codegen/commit/987ea7a30b463cc239580d6ad166c707ae942a89 included in release: 2.4.19 ### References * [CWE-378: Creation of Temporary File With Insecure Permissions](https://cwe.mitre.org/data/definitions/378.html) * [CWE-379: Creation of Temporary File in Directory with Insecure Permissions](https://cwe.mitre.org/data/definitions/379.html) ### For more information If you have any questions or comments about this advisory: * Email us at [security@swagger.io](mailto:security@swagger.io) #### Original vulnerability report > I'm performing OSS security research under the GitHub Security Lab Bug Bounty program. > I've been using a custom CodeQL query to find local temporary directory vulnerabilities in OSS with three custom CodeQL queries. > > - https://github.com/github/codeql/pull/4388/files#diff-71d36c0f2bd0b08e32866f873f1c906cdc17277e0ad327c0c6cd2c882f30de4f > - https://github.com/github/codeql/pull/4388/files#diff-1893a18a8bf43c011d61a7889d0139b998a5a78701a30fe7722eddd4c506aaac > - https://github.com/github/codeql/pull/4473 > > The code generated by the Swagger Generator contains a local information disclosure vulnerability. The system temporary directory, on unix-like systems is shared between multiple users. Information written to this directory, or directories created under this directory that do not correctly set the posix standard permissions can have these directories read/modified by other users. > > --- > > This vulnerability exists in the maven plugin. > > This vulnerability is distinctly different. This vulnerability is most likely a local privilege escalation vulnerability. > > https://github.com/swagger-api/swagger-codegen/blob/068b1ebcb7b04a48ad38f1cadd24bb3810c9f1ab/modules/swagger-generator/src/main/java/io/swagger/generator/online/Generator.java#L174-L185 > > This vulnerability is very similar to this similar vulnerability I disclosed in the Eclipse Jetty project. > > https://github.com/eclipse/jetty.project/security/advisories/GHSA-g3wg-6mcf-8jj6 > > This is due to a race condition between the call to `delete` and the call to `mkdirs`. > > ```java > // ensure file will always be unique by appending random digits > File outputFolder = File.createTempFile(\"codegen-\", \"-tmp\"); // Attacker knows the full path of the file that will be generated > // delete the file that was created > outputFolder.delete(); // Attacker sees file is deleted and begins a race to create their own directory before Swagger Code Generator. > // and make a directory of the same name > // SECURITY VULNERABILITY: Race Condition! - Attacker beats Swagger Code Generator and now owns this directory > outputFolder.mkdirs(); > ``` > > This vulnerability is local privilege escalation because the contents of the `outputFolder` can be appended to by an attacker. As such, code written to this directory, when executed can be attacker controlled. > > The fix here is to switch to the `Files` API for creating temporary directories. Which does not contain this race condition, and appropriately sets the correct file permissions. >",
+      "published" : "2021-03-11T03:09:16Z",
+      "updated" : "2023-02-01T05:05:07Z",
+      "affects" : [
+        {
+          "ref" : "6ccb656c-785a-4fae-aa0a-08b2f04ef607"
+        }
+      ]
+    }
+  ]
+}

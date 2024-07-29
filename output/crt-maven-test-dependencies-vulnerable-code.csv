@@ -1,0 +1,24 @@
+Vulnerability Id,Vulnerable Class,Vulnerable Method
+CVE-2019-12402,org/apache/commons/compress/archivers/zip/NioZipEncoding,encode
+CVE-2021-35515,org/apache/commons/compress/archivers/sevenz/Folder,
+CVE-2021-35516,org/apache/commons/compress/archivers/sevenz/SevenZFile,
+CVE-2021-35517,org/apache/commons/compress/archivers/tar/TarUtils,
+CVE-2021-35517,org/apache/commons/compress/archivers/tar/TarFile,
+CVE-2021-35517,org/apache/commons/compress/archivers/tar/TarArchiveInputStream,
+CVE-2021-36090,org/apache/commons/compress/archivers/zip/ZipArchiveInputStream,
+CVE-2023-20883,org/springframework/boot/autoconfigure/web/servlet/WelcomePageHandlerMapping,
+CVE-2022-27772,org/springframework/boot/web/server/AbstractConfigurableWebServerFactory,createTempDir
+CVE-2021-31684,net/minidev/json/parser/JSONParserByteArray,indexOf
+CVE-2023-1370,net/minidev/json/parser/JSONParserBase,readObject
+CVE-2024-31573,org/xmlunit/util/TransformerFactoryConfigurer,
+GHSA-xqfj-vm6h-2x34,org/apache/commons/compress/archivers/tar/TarUtils,
+GHSA-xqfj-vm6h-2x34,org/apache/commons/compress/archivers/tar/TarFile,
+GHSA-xqfj-vm6h-2x34,org/apache/commons/compress/archivers/tar/TarArchiveInputStream,
+GHSA-7hfm-57qf-j43q,org/apache/commons/compress/archivers/sevenz/Folder,
+GHSA-mc84-pj99-q6hh,org/apache/commons/compress/archivers/zip/ZipArchiveInputStream,
+GHSA-crv7-7245-f45f,org/apache/commons/compress/archivers/sevenz/SevenZFile,
+GHSA-53x6-4x5p-rrvv,org/apache/commons/compress/archivers/zip/NioZipEncoding,encode
+GHSA-4g9r-vxhx-9pgx,org/apache/commons/compress/archivers/dump/DumpArchiveUtil,
+GHSA-4g9r-vxhx-9pgx,org/apache/commons/compress/archivers/dump/TapeInputStream,
+GHSA-493p-pfq6-5258,net/minidev/json/parser/JSONParserBase,readObject
+GHSA-xf96-w227-r7c4,org/springframework/boot/autoconfigure/web/servlet/WelcomePageHandlerMapping,

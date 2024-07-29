@@ -1,0 +1,1351 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:b1d0bb11-4652-4d62-880d-24e437095626",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-07-19T03:09:29Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.8.0"
+      }
+    ],
+    "component" : {
+      "name" : "crt-maven-test-dependencies 2024-07-10 19:45:53.085618",
+      "version" : "0.4.0",
+      "type" : "library",
+      "bom-ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+    }
+  },
+  "dependencies" : [
+    {
+      "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832",
+      "dependsOn" : [
+        "7653151b-8e9e-4b8d-866d-307745c75733"
+      ]
+    },
+    {
+      "ref" : "b1e25b14-e2a1-4509-b028-1f8d4d59fcd2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a5a13670-278f-485e-9e2f-6d9177f4086c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "40591a4a-f452-40b4-b0f4-2c0cd110c8cb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "50112c67-1c18-461b-a170-ef553fb47c02",
+      "dependsOn" : [
+        "df70446f-7ea8-4e77-8a28-b7474bd7f28b"
+      ]
+    },
+    {
+      "ref" : "8aaabb2e-6820-4258-9eba-a6e131344954",
+      "dependsOn" : [
+        "6110c4a8-fe35-474f-a187-087af7550c1e",
+        "1d4d4d7c-a039-4f91-bc6a-7ea105f3d838"
+      ]
+    },
+    {
+      "ref" : "6110c4a8-fe35-474f-a187-087af7550c1e",
+      "dependsOn" : [
+        "50112c67-1c18-461b-a170-ef553fb47c02"
+      ]
+    },
+    {
+      "ref" : "1d4d4d7c-a039-4f91-bc6a-7ea105f3d838",
+      "dependsOn" : [
+        "50112c67-1c18-461b-a170-ef553fb47c02",
+        "6110c4a8-fe35-474f-a187-087af7550c1e",
+        "d3c9e3d1-f574-4737-a2db-cac653ed3958"
+      ]
+    },
+    {
+      "ref" : "d3c9e3d1-f574-4737-a2db-cac653ed3958",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "aeca299c-e31c-4807-b723-d6a08ace77ae",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "92feb5a1-07f8-4551-9340-9eade2d3ade5",
+      "dependsOn" : [
+        "b6bd946a-436c-4dd0-b00b-cb77bf927bca"
+      ]
+    },
+    {
+      "ref" : "bcea4faa-cd7b-4a29-b1c6-08f6a9f07ea8",
+      "dependsOn" : [
+        "aeca299c-e31c-4807-b723-d6a08ace77ae",
+        "b6bd946a-436c-4dd0-b00b-cb77bf927bca",
+        "92feb5a1-07f8-4551-9340-9eade2d3ade5"
+      ]
+    },
+    {
+      "ref" : "b6bd946a-436c-4dd0-b00b-cb77bf927bca",
+      "dependsOn" : [
+        "aeca299c-e31c-4807-b723-d6a08ace77ae"
+      ]
+    },
+    {
+      "ref" : "8d907a27-c428-4326-8b96-9969cd2cd028",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "264b1a9f-e637-4582-97e8-6b831052aacb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "023ad29e-2e22-4de9-a680-831a68705359",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a35e034b-3da1-45c1-a836-c474832302f7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7653151b-8e9e-4b8d-866d-307745c75733",
+      "dependsOn" : [
+        "40591a4a-f452-40b4-b0f4-2c0cd110c8cb",
+        "8aaabb2e-6820-4258-9eba-a6e131344954",
+        "a35e034b-3da1-45c1-a836-c474832302f7",
+        "a1d57153-a494-4cc6-9ba3-a14fbe0a8b3b",
+        "28fc6914-0b6f-4322-b5ec-a77403c26fb8",
+        "fe0e10f8-a9c0-47cb-9eab-3a1d586e42c0",
+        "e52d761b-6c49-4bd9-98bd-492cb5429793",
+        "4660a0c9-e3fd-4fe9-8541-41e2a76373ce",
+        "ead5f3ef-c6b4-4cc8-bf91-9d07535b3f2e",
+        "ccda9204-df4f-41c5-9ccd-5897f27455dc",
+        "893c8b7e-442f-46d8-a279-14f52a6fd2f8"
+      ]
+    },
+    {
+      "ref" : "4c795ed6-c0b0-4c3e-8374-4cfe7b8a4ab9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8977dbb8-a87e-405d-9aea-2542f0963bc4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "10e78c70-a3d5-4693-8acb-c54752bfc704",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4bebd44a-33a3-45ba-b9e3-a7de2f294f97",
+      "dependsOn" : [
+        "10e78c70-a3d5-4693-8acb-c54752bfc704",
+        "0eda0a69-8817-4903-b542-6ed6f2b115a2"
+      ]
+    },
+    {
+      "ref" : "f06b52a7-c069-442b-af55-b0a55d86e1a1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f97dd93d-d351-4cbb-b73d-6aa871df1b28",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a1d57153-a494-4cc6-9ba3-a14fbe0a8b3b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "80c08d7a-096d-40e5-bdbf-a8c1138dfddf",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cadcb146-5894-4d72-a909-08a9330c934a",
+      "dependsOn" : [
+        "80c08d7a-096d-40e5-bdbf-a8c1138dfddf"
+      ]
+    },
+    {
+      "ref" : "fb7f1c75-9b8e-4936-80b6-18d05b11c336",
+      "dependsOn" : [
+        "4c795ed6-c0b0-4c3e-8374-4cfe7b8a4ab9"
+      ]
+    },
+    {
+      "ref" : "0eda0a69-8817-4903-b542-6ed6f2b115a2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6993b8ae-6556-4e05-a2e3-1573ce912559",
+      "dependsOn" : [
+        "a5a13670-278f-485e-9e2f-6d9177f4086c"
+      ]
+    },
+    {
+      "ref" : "8c497c78-e348-4fe9-a968-b99f676c2158",
+      "dependsOn" : [
+        "2f79efc0-a19e-4c6b-a387-3b7142767bed"
+      ]
+    },
+    {
+      "ref" : "2f79efc0-a19e-4c6b-a387-3b7142767bed",
+      "dependsOn" : [
+        "b1e25b14-e2a1-4509-b028-1f8d4d59fcd2"
+      ]
+    },
+    {
+      "ref" : "214400fe-2b0e-4355-9dbc-51a489a8451b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "120918d5-2ef2-4e8b-bb15-b2c2ffb23591",
+      "dependsOn" : [
+        "87c400f7-1585-45fe-9eaf-789e183f71c6",
+        "031dcc63-6bc2-4f62-878f-01b91500ad14",
+        "dc2951ed-0077-49b6-8ae0-7840008996fa"
+      ]
+    },
+    {
+      "ref" : "fe0e10f8-a9c0-47cb-9eab-3a1d586e42c0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "87c400f7-1585-45fe-9eaf-789e183f71c6",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+        "3b70bf9c-d569-4921-bbc6-8186c7242386",
+        "9061058c-1fda-4bdf-a917-36f10a337efe"
+      ]
+    },
+    {
+      "ref" : "dc2951ed-0077-49b6-8ae0-7840008996fa",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+        "87f2fb34-0d45-4ed3-9df0-c717a8af7e53",
+        "87c400f7-1585-45fe-9eaf-789e183f71c6"
+      ]
+    },
+    {
+      "ref" : "031dcc63-6bc2-4f62-878f-01b91500ad14",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+        "87c400f7-1585-45fe-9eaf-789e183f71c6"
+      ]
+    },
+    {
+      "ref" : "9061058c-1fda-4bdf-a917-36f10a337efe",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87"
+      ]
+    },
+    {
+      "ref" : "87f2fb34-0d45-4ed3-9df0-c717a8af7e53",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+        "3b70bf9c-d569-4921-bbc6-8186c7242386",
+        "9061058c-1fda-4bdf-a917-36f10a337efe"
+      ]
+    },
+    {
+      "ref" : "1784324c-a044-44d2-9b48-4349308520d2",
+      "dependsOn" : [
+        "6e59847a-dccc-4967-aa1f-7b777fd48a87",
+        "87f2fb34-0d45-4ed3-9df0-c717a8af7e53",
+        "214400fe-2b0e-4355-9dbc-51a489a8451b"
+      ]
+    },
+    {
+      "ref" : "73d9ecc8-b5fa-43d5-ac26-3bc9856ca4f7",
+      "dependsOn" : [
+        "264b1a9f-e637-4582-97e8-6b831052aacb",
+        "023ad29e-2e22-4de9-a680-831a68705359",
+        "b3e04d30-bf91-43b5-bdc7-27fbb3e14cf8"
+      ]
+    },
+    {
+      "ref" : "e52d761b-6c49-4bd9-98bd-492cb5429793",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4660a0c9-e3fd-4fe9-8541-41e2a76373ce",
+      "dependsOn" : [
+        "73d9ecc8-b5fa-43d5-ac26-3bc9856ca4f7"
+      ]
+    },
+    {
+      "ref" : "ead5f3ef-c6b4-4cc8-bf91-9d07535b3f2e",
+      "dependsOn" : [
+        "fb7f1c75-9b8e-4936-80b6-18d05b11c336"
+      ]
+    },
+    {
+      "ref" : "b3e04d30-bf91-43b5-bdc7-27fbb3e14cf8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3b70bf9c-d569-4921-bbc6-8186c7242386",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8ebf7581-989e-459f-b9c6-37fb924f844d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "28fc6914-0b6f-4322-b5ec-a77403c26fb8",
+      "dependsOn" : [
+        "783feca0-2a52-457e-968e-59dcfd239cde",
+        "77f4660e-824b-4a67-84ce-0f1a0f0cc88e",
+        "8ebf7581-989e-459f-b9c6-37fb924f844d"
+      ]
+    },
+    {
+      "ref" : "783feca0-2a52-457e-968e-59dcfd239cde",
+      "dependsOn" : [
+        "aeca299c-e31c-4807-b723-d6a08ace77ae",
+        "bcea4faa-cd7b-4a29-b1c6-08f6a9f07ea8",
+        "b6bd946a-436c-4dd0-b00b-cb77bf927bca"
+      ]
+    },
+    {
+      "ref" : "77f4660e-824b-4a67-84ce-0f1a0f0cc88e",
+      "dependsOn" : [
+        "783feca0-2a52-457e-968e-59dcfd239cde"
+      ]
+    },
+    {
+      "ref" : "df70446f-7ea8-4e77-8a28-b7474bd7f28b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8b2e5618-7acc-47e0-bd68-e27a52e5b02c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ccda9204-df4f-41c5-9ccd-5897f27455dc",
+      "dependsOn" : [
+        "bed407a1-1232-4816-911d-5d18f048c7ba",
+        "588b4327-c8bf-4f53-a36b-12106ca9bfea",
+        "8c497c78-e348-4fe9-a968-b99f676c2158",
+        "cadcb146-5894-4d72-a909-08a9330c934a",
+        "120918d5-2ef2-4e8b-bb15-b2c2ffb23591",
+        "1784324c-a044-44d2-9b48-4349308520d2",
+        "8d907a27-c428-4326-8b96-9969cd2cd028",
+        "f97dd93d-d351-4cbb-b73d-6aa871df1b28",
+        "6993b8ae-6556-4e05-a2e3-1573ce912559",
+        "6a87edcc-f84d-4971-bb7a-83bbda7ef966",
+        "39afd8c2-748d-4e73-8bd5-6f862ae5376a"
+      ]
+    },
+    {
+      "ref" : "bed407a1-1232-4816-911d-5d18f048c7ba",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "588b4327-c8bf-4f53-a36b-12106ca9bfea",
+      "dependsOn" : [
+        "bed407a1-1232-4816-911d-5d18f048c7ba",
+        "8b2e5618-7acc-47e0-bd68-e27a52e5b02c"
+      ]
+    },
+    {
+      "ref" : "6a87edcc-f84d-4971-bb7a-83bbda7ef966",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "893c8b7e-442f-46d8-a279-14f52a6fd2f8",
+      "dependsOn" : [
+        "f06b52a7-c069-442b-af55-b0a55d86e1a1",
+        "8977dbb8-a87e-405d-9aea-2542f0963bc4",
+        "4bebd44a-33a3-45ba-b9e3-a7de2f294f97"
+      ]
+    },
+    {
+      "ref" : "39afd8c2-748d-4e73-8bd5-6f862ae5376a",
+      "dependsOn" : [ ]
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "bom-ref" : "58cf514b-741d-48a4-a64d-ea7feaf508ce",
+      "id" : "CVE-2019-12402",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "The file name encoding algorithm used internally in Apache Commons Compress 1.15 to 1.18 can get into an infinite loop when faced with specially crafted inputs. This can lead to a denial of service attack if an attacker can choose the file names inside of an archive created by Compress.",
+      "published" : "2019-08-30T09:15:00Z",
+      "updated" : "2023-11-07T03:03:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/NioZipEncoding.encode() Patch commit(s): https://github.com/apache/commons-compress/commit/4ad5d80a6272e007f64a6ac66829ca189a8093b9 Patched version(s): >= 1.19 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-460507"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "0f7a6c94-d126-44bb-9243-62fe5bb6255d",
+      "id" : "CVE-2021-35515",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/Folder.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=3fe6b42110dc56d0d6fe0aaf80cfecb8feea5321 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316639"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f4ac9dae-a06b-4786-9061-904619bdd851",
+      "id" : "CVE-2021-35516",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/SevenZFile.java Patch commit(s): https://github.com/apache/commons-compress/commit/5761493cbaf7a7d608a3b68f4d61aaa822dbeb4f https://github.com/apache/commons-compress/commit/60d551a748236d7f4651a4ae88d5a351f7c5754b https://github.com/apache/commons-compress/commit/ae2b27cc011f47f0289cb24a11f2d4f1db711f8a https://github.com/apache/commons-compress/commit/bf5a5346ae04b9d2a5b0356ca75f11dcc8d94789 https://github.com/apache/commons-compress/commit/c51de6cfaec75b21566374158f25e1734c3a94cb https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e https://github.com/apache/commons-compress/commit/0aba8b8fd8053ae323f15d736d1762b2161c76a6 https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316638"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "63f4d822-3654-4e50-9e24-d8ae4a97f18b",
+      "id" : "CVE-2021-35517",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        770
+      ],
+      "description" : "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' tar package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/tar/TarUtils.java org/apache/commons/compress/archivers/tar/TarFile.java org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=7ce1b0796d6cbe1f41b969583bd49f33ae0efef0 https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=d0af873e77d16f41edfef7b69da5c8c35c96a650 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316640"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c3bdbebf-7c27-4372-968a-ae2fa9db92d0",
+      "id" : "CVE-2021-36090",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "description" : "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' zip package.",
+      "published" : "2021-07-13T08:15:00Z",
+      "updated" : "2023-11-07T03:36:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=ef5d70b625000e38404194aaab311b771c44efda Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316641"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "bf1b2652-e8c0-4194-9b53-30effad3e81c",
+      "id" : "CVE-2024-25710",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0. Users are recommended to upgrade to version 1.26.0 which fixes the issue.",
+      "published" : "2024-02-19T09:15:00Z",
+      "updated" : "2024-03-07T17:15:00Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "a86692b7-66f1-4600-a784-5c561a54a11f",
+      "id" : "CVE-2023-20883",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        400
+      ],
+      "description" : "In Spring Boot versions 3.0.0 - 3.0.6, 2.7.0 - 2.7.11, 2.6.0 - 2.6.14, 2.5.0 - 2.5.14 and older unsupported versions, there is potential for a denial-of-service (DoS) attack if Spring MVC is used together with a reverse proxy cache.",
+      "published" : "2023-05-26T17:15:00Z",
+      "updated" : "2023-07-03T16:15:00Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_configuration",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update / Disable Spring MVC auto-configuration / Disable welcome page support Mitigation: No vulnerable because CRT does not utilize Spring Boot's welcome page support Compromised code: org/springframework/boot/autoconfigure/web/servlet/WelcomePageHandlerMapping.java Patch commit(s): https://github.com/spring-projects/spring-boot/commit/418dd1ba5bdad79b55a043000164bfcbda2acd78 Patched version(s): >= 2.5.15 >= 2.6.15 >= 2.7.12 >= 3.0.7 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-5564390"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f45763a9-4136-42db-a4a7-c5ab169a9117",
+      "id" : "CVE-2022-27772",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 4.6,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:L/AC:L/Au:N/C:P/I:P/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.8,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        668
+      ],
+      "description" : "spring-boot versions prior to version v2.2.11.RELEASE was vulnerable to temporary directory hijacking. This vulnerability impacted the org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.createTempDir method. NOTE: This vulnerability only affects products and/or versions that are no longer supported by the maintainer",
+      "published" : "2022-03-30T18:15:00Z",
+      "updated" : "2024-05-17T02:07:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.createTempDir() Patch commit(s): https://github.com/spring-projects/spring-boot/commit/667ccdae84822072f9ea1a27ed5c77964c71002d Patched version(s): >= 2.2.11.RELEASE Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-2438287"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "8e1fd30a-1850-46dc-9e90-746443e3f913",
+      "id" : "CVE-2023-51074",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.3,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "description" : "json-path v2.8.0 was discovered to contain a stack overflow via the Criteria.parse() method.",
+      "published" : "2023-12-27T21:15:00Z",
+      "updated" : "2024-01-11T20:01:00Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "3b58dd37-794d-419d-8583-e1c2dc7555cd",
+      "id" : "CVE-2021-27568",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 4.3,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:M/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.9,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        754
+      ],
+      "description" : "An issue was discovered in netplex json-smart-v1 through 2015-10-23 and json-smart-v2 through 2.4. An exception is thrown from a function, but it is not caught, as demonstrated by NumberFormatException. When it is not caught, it may cause programs using the library to crash or expose sensitive information.",
+      "published" : "2021-02-23T02:15:00Z",
+      "updated" : "2023-11-07T03:31:00Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "5191a8fc-a851-4857-b581-0e977a352d0a",
+      "id" : "CVE-2021-31684",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.0,
+          "severity" : "medium",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "A vulnerability was discovered in the indexOf function of JSONParserByteArray in JSON Smart versions 1.3 and 2.4 which causes a denial of service (DOS) via a crafted web request.",
+      "published" : "2021-06-01T20:15:00Z",
+      "updated" : "2024-06-21T19:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: net/minidev/json/parser/JSONParserByteArray.indexOf() Patch commit(s): https://github.com/netplex/json-smart-v1/pull/11/commits/c558138b3cb11f586643f95fbca4ce5c4e92a198 https://github.com/netplex/json-smart-v2/pull/68/commits/6ecff1c2974eaaab2e74e441bdf5ba8495227bf5 Patched version(s): >= 1.3.3 >= 2.4.5 Links: https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-1298655"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "6e9b8f39-a2c5-448e-8f84-5f93190d89dc",
+      "id" : "CVE-2023-1370",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        674
+      ],
+      "description" : "[Json-smart](https://netplex.github.io/json-smart/) is a performance focused, JSON processor lib. When reaching a ‘[‘ or ‘{‘ character in the JSON input, the code parses an array or an object respectively. It was discovered that the code does not have any limit to the nesting of such arrays or objects. Since the parsing of nested arrays and objects is done recursively, nesting too many of them can cause a stack exhaustion (stack overflow) and crash the software.",
+      "published" : "2023-03-22T06:15:00Z",
+      "updated" : "2024-06-21T19:15:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: net/minidev/json/parser/JSONParserBase.readObject() Patch commit(s): https://github.com/netplex/json-smart-v2/commit/5b3205d051952d3100aa0db1535f6ba6226bd87a https://github.com/netplex/json-smart-v2/commit/e2791ae506a57491bc856b439d706c81e45adcf8 Patched version(s): >= 2.4.9 (maintainer recommends 2.4.10 due to a remaining bug) Links: https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-3369748 Notes: Adding a limit to nesting depth of JSON arrays or objects would prevent this"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "dc245fe7-e095-4248-b4f7-5c617a71dc82",
+      "id" : "CVE-2020-15250",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 1.9,
+          "severity" : "low",
+          "method" : "CVSSv2",
+          "vector" : "(AV:L/AC:M/Au:N/C:P/I:N/A:N)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 5.5,
+          "severity" : "medium",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes" : [
+        732
+      ],
+      "description" : "In JUnit4 from version 4.7 and before 4.13.1, the test rule TemporaryFolder contains a local information disclosure vulnerability. On Unix like systems, the system's temporary directory is shared between all users on that system. Because of this, when files and directories are written into this directory they are, by default, readable by other users on that same system. This vulnerability does not allow other users to overwrite the contents of these directories or files. This is purely an information disclosure vulnerability. This vulnerability impacts you if the JUnit tests write sensitive information, like API keys or passwords, into the temporary folder, and the JUnit tests execute in an environment where the OS has other untrusted users. Because certain JDK file system APIs were only added in JDK 1.7, this this fix is dependent upon the version of the JDK you are using. For Java 1.7 and higher users: this vulnerability is fixed in 4.13.1. For Java 1.6 and lower users: no patch is available, you must use the workaround below. If you are unable to patch, or are stuck running on Java 1.6, specifying the `java.io.tmpdir` system environment variable to a directory that is exclusively owned by the executing user will fix this vulnerability. For more information, including an example of vulnerable code, see the referenced GitHub Security Advisory.",
+      "published" : "2020-10-12T18:15:00Z",
+      "updated" : "2023-11-07T03:17:00Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "720c2dcb-aa20-4215-8908-76287f0ebde6",
+      "id" : "CVE-2024-31573",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        1188
+      ],
+      "description" : "xmlunit-core - XSLT Injection",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/xmlunit/util/TransformerFactoryConfigurer.java Patch commit(s): https://github.com/xmlunit/xmlunit/commit/b81d48b71dfd2868bdfc30a3e17ff973f32bc15b Patched version(s): >= 2.10.0 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGXMLUNIT-6751676 Notes: This vulnerability can be avoided by configuring TransformerFactory instances to disable extension functions using the setFactory or setTransformerFactory methods. TODO: Configure TransformerFactory instances to disable extension functions using the setFactory or setTransformerFactory methods"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "1ec653cd-8eba-4a98-b66c-007c3ad4f3c3",
+      "id" : "GHSA-xqfj-vm6h-2x34",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130,
+        770
+      ],
+      "description" : "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' tar package.",
+      "published" : "2021-08-02T16:55:39Z",
+      "updated" : "2023-01-27T05:02:19Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/tar/TarUtils.java org/apache/commons/compress/archivers/tar/TarFile.java org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=7ce1b0796d6cbe1f41b969583bd49f33ae0efef0 https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=d0af873e77d16f41edfef7b69da5c8c35c96a650 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316640"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "c7933641-a941-46a4-9450-6237f88bde2d",
+      "id" : "GHSA-7hfm-57qf-j43q",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        834,
+        835
+      ],
+      "description" : "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-08-02T16:55:07Z",
+      "updated" : "2023-01-27T05:02:27Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/Folder.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=3fe6b42110dc56d0d6fe0aaf80cfecb8feea5321 Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316639"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "37108b97-f739-4c3b-8a74-dda6ac56b8d5",
+      "id" : "GHSA-mc84-pj99-q6hh",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130
+      ],
+      "description" : "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' zip package.",
+      "published" : "2021-08-02T16:55:53Z",
+      "updated" : "2023-01-27T05:02:28Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java Patch commit(s): https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=80124dd9fe4b0a0b2e203ca19aacac8cd0afc96f https://gitbox.apache.org/repos/asf?p=commons-compress.git;a=commit;h=ef5d70b625000e38404194aaab311b771c44efda Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316641"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f4bf298b-b2b7-444c-a43d-62c0c9f255cd",
+      "id" : "GHSA-crv7-7245-f45f",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        130,
+        770
+      ],
+      "description" : "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+      "published" : "2021-08-02T16:55:15Z",
+      "updated" : "2023-01-27T05:02:44Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/sevenz/SevenZFile.java Patch commit(s): https://github.com/apache/commons-compress/commit/5761493cbaf7a7d608a3b68f4d61aaa822dbeb4f https://github.com/apache/commons-compress/commit/60d551a748236d7f4651a4ae88d5a351f7c5754b https://github.com/apache/commons-compress/commit/ae2b27cc011f47f0289cb24a11f2d4f1db711f8a https://github.com/apache/commons-compress/commit/bf5a5346ae04b9d2a5b0356ca75f11dcc8d94789 https://github.com/apache/commons-compress/commit/c51de6cfaec75b21566374158f25e1734c3a94cb https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e https://github.com/apache/commons-compress/commit/0aba8b8fd8053ae323f15d736d1762b2161c76a6 https://github.com/apache/commons-compress/commit/26924e96c7730db014c310757e11c9359db07f3e Patched version(s): >= 1.21 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-1316638"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "5a20a543-c6ea-4743-8f92-3e4d2309ceb7",
+      "id" : "GHSA-53x6-4x5p-rrvv",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "The file name encoding algorithm used internally in Apache Commons Compress 1.15 to 1.18 can get into an infinite loop when faced with specially crafted inputs. This can lead to a denial of service attack if an attacker can choose the file names inside of an archive created by Compress.",
+      "published" : "2019-10-11T18:41:08Z",
+      "updated" : "2023-10-09T22:16:00Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/zip/NioZipEncoding.encode() Patch commit(s): https://github.com/apache/commons-compress/commit/4ad5d80a6272e007f64a6ac66829ca189a8093b9 Patched version(s): >= 1.19 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-460507"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "077cb2bb-3b39-4878-bf31-410f3cd3cd11",
+      "id" : "GHSA-4g9r-vxhx-9pgx",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        835
+      ],
+      "description" : "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress. This issue affects Apache Commons Compress: from 1.3 through 1.25.0. Users are recommended to upgrade to version 1.26.0 which fixes the issue.",
+      "published" : "2024-02-19T09:30:50Z",
+      "updated" : "2024-03-07T18:30:28Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Local Advisory: Update Mitigation: Pending Compromised code: org/apache/commons/compress/archivers/dump/DumpArchiveUtil.java org/apache/commons/compress/archivers/dump/TapeInputStream.java Patch commit(s): https://github.com/apache/commons-compress/commit/8a9a5847c04ae39a1d45b365f8bb82022466067d Patched version(s): >= 1.26.0 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-6254296"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "84804837-e76b-4380-b56f-c677c4f86ed1",
+      "id" : "GHSA-pfh2-hfmq-phg5",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "description" : "json-path v2.8.0 was discovered to contain a stack overflow via the `Criteria.parse()` method.",
+      "published" : "2023-12-27T21:31:01Z",
+      "updated" : "2024-05-25T05:04:01Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "6ba254a0-d479-4d91-a813-95becbb4369e",
+      "id" : "GHSA-v528-7hrm-frqp",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        754
+      ],
+      "description" : "An issue was discovered in netplex json-smart-v1 through 2015-10-23 and json-smart-v2 through 2.4. An exception is thrown from a function, but it is not caught, as demonstrated by NumberFormatException. When it is not caught, it may cause programs using the library to crash or expose sensitive information.",
+      "published" : "2021-06-16T18:03:47Z",
+      "updated" : "2023-02-15T18:39:28Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "596702fc-6523-4a65-9d6b-239b1a285061",
+      "id" : "GHSA-493p-pfq6-5258",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        674
+      ],
+      "description" : "### Impact Affected versions of [net.minidev:json-smart](https://github.com/netplex/json-smart-v1) are vulnerable to Denial of Service (DoS) due to a StackOverflowError when parsing a deeply nested JSON array or object. When reaching a ‘[‘ or ‘{‘ character in the JSON input, the code parses an array or an object respectively. It was discovered that the 3PP does not have any limit to the nesting of such arrays or objects. Since the parsing of nested arrays and objects is done recursively, nesting too many of them can cause stack exhaustion (stack overflow) and crash the software. ### Patches This vulnerability was fixed in json-smart version 2.4.9, but the maintainer recommends upgrading to 2.4.10, due to a remaining bug. ### Workarounds N/A ### References - https://www.cve.org/CVERecord?id=CVE-2023-1370 - https://nvd.nist.gov/vuln/detail/CVE-2023-1370 - https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-3369748",
+      "published" : "2023-03-23T20:32:03Z",
+      "updated" : "2024-06-24T16:07:05Z",
+      "analysis" : {
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update Mitigation: Pending Compromised code: net/minidev/json/parser/JSONParserBase.readObject() Patch commit(s): https://github.com/netplex/json-smart-v2/commit/5b3205d051952d3100aa0db1535f6ba6226bd87a https://github.com/netplex/json-smart-v2/commit/e2791ae506a57491bc856b439d706c81e45adcf8 Patched version(s): >= 2.4.9 (maintainer recommends 2.4.10 due to a remaining bug) Links: https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-3369748 Notes: Adding a limit to nesting depth of JSON arrays or objects would prevent this"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "f2672457-6eaf-4ba3-a5fb-c686507c987d",
+      "id" : "GHSA-269g-pwp5-87pp",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "medium",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        200,
+        732
+      ],
+      "description" : "### Vulnerability The JUnit4 test rule [TemporaryFolder](https://junit.org/junit4/javadoc/4.13/org/junit/rules/TemporaryFolder.html) contains a local information disclosure vulnerability. Example of vulnerable code: ```java public static class HasTempFolder { @Rule public TemporaryFolder folder = new TemporaryFolder(); @Test public void testUsingTempFolder() throws IOException { folder.getRoot(); // Previous file permissions: `drwxr-xr-x`; After fix:`drwx------` File createdFile= folder.newFile(\"myfile.txt\"); // unchanged/irrelevant file permissions File createdFolder= folder.newFolder(\"subfolder\"); // unchanged/irrelevant file permissions // ... } } ``` ### Impact On Unix like systems, the system's temporary directory is shared between all users on that system. Because of this, when files and directories are written into this directory they are, by default, readable by other users on that same system. This vulnerability **does not** allow other users to overwrite the contents of these directories or files. This is purely an information disclosure vulnerability. When analyzing the impact of this vulnerability, here are the important questions to ask: 1. Do the JUnit tests write sensitive information, like API keys or passwords, into the temporary folder? - If yes, this vulnerability impacts you, but only if you also answer 'yes' to question 2. - If no, this vulnerability does not impact you. 2. Do the JUnit tests ever execute in an environment where the OS has other untrusted users. _This may apply in CI/CD environments but normally won't be 'yes' for personal developer machines._ - If yes, and you answered 'yes' to question 1, this vulnerability impacts you. - If no, this vulnerability does not impact you. ### Patches Because certain JDK file system APIs were only added in JDK 1.7, this this fix is dependent upon the version of the JDK you are using. - Java 1.7 and higher users: this vulnerability is fixed in 4.13.1. - Java 1.6 and lower users: **no patch is available, you must use the workaround below.** ### Workarounds If you are unable to patch, or are stuck running on Java 1.6, specifying the `java.io.tmpdir` system environment variable to a directory that is exclusively owned by the executing user will fix this vulnerability. ### References - [CWE-200: Exposure of Sensitive Information to an Unauthorized Actor](https://cwe.mitre.org/data/definitions/200.html) - Fix commit https://github.com/junit-team/junit4/commit/610155b8c22138329f0723eec22521627dbc52ae #### Similar Vulnerabilities - Google Guava - https://github.com/google/guava/issues/4011 - Apache Ant - https://nvd.nist.gov/vuln/detail/CVE-2020-1945 - JetBrains Kotlin Compiler - https://nvd.nist.gov/vuln/detail/CVE-2020-15824 ### For more information If you have any questions or comments about this advisory, please pen an issue in [junit-team/junit4](https://github.com/junit-team/junit4/issues).",
+      "published" : "2020-10-12T17:33:00Z",
+      "updated" : "2023-02-01T05:04:50Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "7bc85d3d-01b6-4880-be30-396b4281b5c5",
+      "id" : "GHSA-xf96-w227-r7c4",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "high",
+          "method" : "other"
+        }
+      ],
+      "cwes" : [
+        400
+      ],
+      "description" : "In Spring Boot versions 3.0.0 - 3.0.6, 2.7.0 - 2.7.11, 2.6.0 - 2.6.14, 2.5.0 - 2.5.14 and older unsupported versions, there is potential for a denial-of-service (DoS) attack if Spring MVC is used together with a reverse proxy cache. Specifically, an application is vulnerable if all of the conditions are true: * The application has Spring MVC auto-configuration enabled. This is the case by default if Spring MVC is on the classpath. * The application makes use of Spring Boot's welcome page support, either static or templated. * Your application is deployed behind a proxy which caches 404 responses. Your application is NOT vulnerable if any of the following are true: * Spring MVC auto-configuration is disabled. This is true if WebMvcAutoConfiguration is explicitly excluded, if Spring MVC is not on the classpath, or if spring.main.web-application-type is set to a value other than SERVLET. * The application does not use Spring Boot's welcome page support. * You do not have a proxy which caches 404 responses. Affected Spring Products and Versions Spring Boot 3.0.0 to 3.0.6 2.7.0 to 2.7.11 2.6.0 to 2.6.14 2.5.0 to 2.5.14 Older, unsupported versions are also affected Mitigation Users of affected versions should apply the following mitigations: * 3.0.x users should upgrade to 3.0.7+ * 2.7.x users should upgrade to 2.7.12+ * 2.6.x users should upgrade to 2.6.15+ * 2.5.x users should upgrade to 2.5.15+ Users of older, unsupported versions should upgrade to 3.0.7+ or 2.7.12+. Workarounds: configure the reverse proxy not to cache 404 responses and/or not to cache responses to requests to the root (/) of the application.",
+      "published" : "2023-05-26T18:30:21Z",
+      "updated" : "2023-11-07T05:01:41Z",
+      "analysis" : {
+        "state" : "not_affected",
+        "justification" : "requires_configuration",
+        "response" : [
+          "update"
+        ],
+        "detail" : "Attack vector: Network Advisory: Update / Disable Spring MVC auto-configuration / Disable welcome page support Mitigation: No vulnerable because CRT does not utilize Spring Boot's welcome page support Compromised code: org/springframework/boot/autoconfigure/web/servlet/WelcomePageHandlerMapping.java Patch commit(s): https://github.com/spring-projects/spring-boot/commit/418dd1ba5bdad79b55a043000164bfcbda2acd78 Patched version(s): >= 2.5.15 >= 2.6.15 >= 2.7.12 >= 3.0.7 Links: https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-5564390"
+      },
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    },
+    {
+      "bom-ref" : "b24259bd-4a88-4ae4-838a-a02dcf197a2e",
+      "id" : "GHSA-chfm-68vv-pvw5",
+      "source" : {
+        "name" : "GITHUB",
+        "url" : "https://github.com/advisories"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "GITHUB",
+            "url" : "https://github.com/advisories"
+          },
+          "severity" : "low",
+          "method" : "other"
+        }
+      ],
+      "description" : "### Impact When performing XSLT transformations XMLUnit for Java did not disable XSLT extension functions by default. Depending on the XSLT processor being used this could allow arbitrary code to be executed when XMLUnit is used to transform data with a stylesheet who's source can not be trusted. If the stylesheet can be provided externally this may even lead to a remote code execution. ## Patches Users are advised to upgrade to XMLUnit for Java 2.10.0 where the default has been changed by means of https://github.com/xmlunit/xmlunit/commit/b81d48b71dfd2868bdfc30a3e17ff973f32bc15b ### Workarounds XMLUnit's main use-case is performing tests on code that generates or processes XML. Most users will not use it to perform arbitrary XSLT transformations. Users running XSLT transformations with untrusted stylesheets should explicitly use XMLUnit's APIs to pass in a pre-configured TraX `TransformerFactory` with extension functions disabled via features and attributes. The required `setFactory` or `setTransformerFactory` methods have been available since XMLUnit for Java 2.0.0. ### References [Bug Report](https://github.com/xmlunit/xmlunit/issues/264) [JAXP Security Guide](https://docs.oracle.com/en/java/javase/22/security/java-api-xml-processing-jaxp-security-guide.html#GUID-E345AA09-801E-4B95-B83D-7F0C452538AA)",
+      "published" : "2024-05-01T16:40:01Z",
+      "updated" : "2024-05-01T16:40:05Z",
+      "affects" : [
+        {
+          "ref" : "1bc31d4e-b9ef-446a-9c4e-5ce11cb39832"
+        }
+      ]
+    }
+  ]
+}
